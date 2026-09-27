@@ -22,6 +22,10 @@ test('każde miejsce ma unikalny identyfikator i komplet metadanych', () => {
     assert.ok(validCategories.has(location.category), `Nieznana kategoria: ${location.category}`);
     assert.equal(typeof location.name, 'string');
     assert.ok(location.name.length >= 2);
+    assert.equal(typeof location.shortName, 'string');
+    assert.ok(location.shortName.length >= 2);
+    assert.equal(typeof location.objectType, 'string');
+    assert.ok(location.objectType.length >= 3);
     assert.ok(location.latitude >= -90 && location.latitude <= 90);
     assert.ok(location.longitude >= -180 && location.longitude <= 180);
     assert.ok(location.source.title);
@@ -31,6 +35,17 @@ test('każde miejsce ma unikalny identyfikator i komplet metadanych', () => {
     assert.ok(location.image.sourceTitle);
     assert.match(location.image.sourceUrl, /^https:\/\/pl\.wikipedia\.org\/wiki\//);
   }
+});
+
+test('pełne nazwy uwzględniają prawdziwy typ obiektu', () => {
+  const names = new Map(data.locations.map((location) => [location.id, location]));
+  assert.equal(names.get('europe-morze-azowskie').name, 'Morze Azowskie');
+  assert.equal(names.get('europe-wyspa-archipelag-bornholm').name, 'Wyspa Bornholm');
+  assert.equal(names.get('europe-wyspa-archipelag-bornholm').objectType, 'Wyspa');
+  assert.equal(names.get('asia-wyspa-archipelag-archipelag-malajski').name, 'Archipelag Malajski');
+  assert.equal(names.get('asia-wyspa-archipelag-archipelag-malajski').objectType, 'Archipelag');
+  assert.equal(names.get('asia-ciesnina-kana-beringa').name, 'Cieśnina Beringa');
+  assert.equal(names.get('africa-ciesnina-kana-sueski').name, 'Kanał Sueski');
 });
 
 test('każde miejsce ma dokładnie trzy krótkie, pełne ciekawostki', () => {

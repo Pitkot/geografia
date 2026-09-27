@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "generatedAt": "2026-09-27",
   "factPolicy": "Dokładnie trzy krótkie ciekawostki na miejsce; aplikacja nie wyszukuje ich w sieci.",
   "sourcesNote": "Ciekawostki zredagowano na podstawie artykułów polskiej Wikipedii; odnośnik źródłowy znajduje się przy każdym rekordzie.",
@@ -66,7 +66,9 @@
   "locations": [
     {
       "id": "europe-po-wysep-skandynawski",
-      "name": "Skandynawski",
+      "name": "Półwysep Skandynawski",
+      "shortName": "Skandynawski",
+      "objectType": "Półwysep",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -84,7 +86,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Scandinavia.TMO2003050.jpg/1280px-Scandinavia.TMO2003050.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Skandynawski — zdjęcie lub mapa poglądowa",
+        "alt": "Półwysep Skandynawski — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Półwysep Skandynawski",
         "sourceUrl": "https://pl.wikipedia.org/wiki/P%C3%B3%C5%82wysep_Skandynawski"
       },
@@ -92,7 +94,9 @@
     },
     {
       "id": "europe-po-wysep-jutlandzki",
-      "name": "Jutlandzki",
+      "name": "Półwysep Jutlandzki",
+      "shortName": "Jutlandzki",
+      "objectType": "Półwysep",
       "aliases": [
         "Jutlandia"
       ],
@@ -112,7 +116,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Jutland_Peninsula_map.PNG/1280px-Jutland_Peninsula_map.PNG?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Jutlandzki — zdjęcie lub mapa poglądowa",
+        "alt": "Półwysep Jutlandzki — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Półwysep Jutlandzki",
         "sourceUrl": "https://pl.wikipedia.org/wiki/P%C3%B3%C5%82wysep_Jutlandzki"
       },
@@ -120,7 +124,9 @@
     },
     {
       "id": "europe-po-wysep-bretonski",
-      "name": "Bretoński",
+      "name": "Półwysep Bretoński",
+      "shortName": "Bretoński",
+      "objectType": "Półwysep",
       "aliases": [
         "Bretania"
       ],
@@ -140,7 +146,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Bretagne_region_relief_location_map.jpg/1280px-Bretagne_region_relief_location_map.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Bretoński — zdjęcie lub mapa poglądowa",
+        "alt": "Półwysep Bretoński — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Półwysep Bretoński",
         "sourceUrl": "https://pl.wikipedia.org/wiki/P%C3%B3%C5%82wysep_Breto%C5%84ski"
       },
@@ -148,7 +154,9 @@
     },
     {
       "id": "europe-po-wysep-iberyjski-pirenejski",
-      "name": "Iberyjski (Pirenejski)",
+      "name": "Półwysep Iberyjski (Pirenejski)",
+      "shortName": "Iberyjski (Pirenejski)",
+      "objectType": "Półwysep",
       "aliases": [
         "Iberyjski",
         "Pirenejski"
@@ -169,7 +177,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Iberian_map_europe.svg/1280px-Iberian_map_europe.svg.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Iberyjski (Pirenejski) — zdjęcie lub mapa poglądowa",
+        "alt": "Półwysep Iberyjski (Pirenejski) — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Półwysep Iberyjski",
         "sourceUrl": "https://pl.wikipedia.org/wiki/P%C3%B3%C5%82wysep_Iberyjski"
       },
@@ -177,7 +185,9 @@
     },
     {
       "id": "europe-po-wysep-apeninski",
-      "name": "Apeniński",
+      "name": "Półwysep Apeniński",
+      "shortName": "Apeniński",
+      "objectType": "Półwysep",
       "aliases": [
         "Włoski"
       ],
@@ -197,7 +207,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Satellite_image_of_Italy_in_March_2003.jpg/1280px-Satellite_image_of_Italy_in_March_2003.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Apeniński — zdjęcie lub mapa poglądowa",
+        "alt": "Półwysep Apeniński — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Półwysep Apeniński",
         "sourceUrl": "https://pl.wikipedia.org/wiki/P%C3%B3%C5%82wysep_Apeni%C5%84ski"
       },
@@ -205,7 +215,9 @@
     },
     {
       "id": "europe-po-wysep-ba-kanski",
-      "name": "Bałkański",
+      "name": "Półwysep Bałkański",
+      "shortName": "Bałkański",
+      "objectType": "Półwysep",
       "aliases": [
         "Bałkany"
       ],
@@ -225,7 +237,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/36/Balkan_topo_pl.jpg/1280px-Balkan_topo_pl.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Bałkański — zdjęcie lub mapa poglądowa",
+        "alt": "Półwysep Bałkański — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Półwysep Bałkański",
         "sourceUrl": "https://pl.wikipedia.org/wiki/P%C3%B3%C5%82wysep_Ba%C5%82ka%C5%84ski"
       },
@@ -233,7 +245,9 @@
     },
     {
       "id": "europe-po-wysep-peloponez",
-      "name": "Peloponez",
+      "name": "Półwysep Peloponeski (Peloponez)",
+      "shortName": "Peloponez",
+      "objectType": "Półwysep",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -251,7 +265,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Peloponnese_map.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Peloponez — zdjęcie lub mapa poglądowa",
+        "alt": "Półwysep Peloponeski (Peloponez) — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Peloponez",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Peloponez"
       },
@@ -259,7 +273,9 @@
     },
     {
       "id": "europe-po-wysep-krym",
-      "name": "Krym",
+      "name": "Półwysep Krymski (Krym)",
+      "shortName": "Krym",
+      "objectType": "Półwysep",
       "aliases": [
         "Półwysep Krymski"
       ],
@@ -279,7 +295,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Satellite_picture_of_Crimea%2C_Terra-MODIS%2C_05-16-2015.jpg/1280px-Satellite_picture_of_Crimea%2C_Terra-MODIS%2C_05-16-2015.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Krym — zdjęcie lub mapa poglądowa",
+        "alt": "Półwysep Krymski (Krym) — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Półwysep Krymski",
         "sourceUrl": "https://pl.wikipedia.org/wiki/P%C3%B3%C5%82wysep_Krymski"
       },
@@ -287,7 +303,9 @@
     },
     {
       "id": "europe-morze-bia-e",
-      "name": "Białe",
+      "name": "Morze Białe",
+      "shortName": "Białe",
+      "objectType": "Morze",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -305,7 +323,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Modis_white_sea.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Białe — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Białe — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Białe",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Bia%C5%82e"
       },
@@ -313,7 +331,9 @@
     },
     {
       "id": "europe-morze-norweskie",
-      "name": "Norweskie",
+      "name": "Morze Norweskie",
+      "shortName": "Norweskie",
+      "objectType": "Morze",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -331,7 +351,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/V%C3%A5gakaillen_nattlys.JPG/1280px-V%C3%A5gakaillen_nattlys.JPG?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Norweskie — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Norweskie — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Norweskie",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Norweskie"
       },
@@ -339,7 +359,9 @@
     },
     {
       "id": "europe-morze-po-nocne",
-      "name": "Północne",
+      "name": "Morze Północne",
+      "shortName": "Północne",
+      "objectType": "Morze",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -357,7 +379,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/NASA_NorthSea1_2.jpg/1280px-NASA_NorthSea1_2.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Północne — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Północne — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Północne",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_P%C3%B3%C5%82nocne"
       },
@@ -365,7 +387,9 @@
     },
     {
       "id": "europe-morze-ba-tyckie",
-      "name": "Bałtyckie",
+      "name": "Morze Bałtyckie",
+      "shortName": "Bałtyckie",
+      "objectType": "Morze",
       "aliases": [
         "Bałtyk"
       ],
@@ -385,7 +409,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/BalticSea_March2000_NASA-S2000084115409.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Bałtyckie — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Bałtyckie — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Bałtyckie",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Ba%C5%82tyckie"
       },
@@ -393,7 +417,9 @@
     },
     {
       "id": "europe-morze-srodziemne",
-      "name": "Śródziemne",
+      "name": "Morze Śródziemne",
+      "shortName": "Śródziemne",
+      "objectType": "Morze",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -411,7 +437,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Mediterranean_Sea_16.61811E_38.99124N.jpg/1280px-Mediterranean_Sea_16.61811E_38.99124N.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Śródziemne — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Śródziemne — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Śródziemne",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_%C5%9Ar%C3%B3dziemne"
       },
@@ -419,7 +445,9 @@
     },
     {
       "id": "europe-morze-adriatyckie",
-      "name": "Adriatyckie",
+      "name": "Morze Adriatyckie",
+      "shortName": "Adriatyckie",
+      "objectType": "Morze",
       "aliases": [
         "Adriatyk"
       ],
@@ -439,7 +467,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Adriatic_Sea_2003.jpg/1280px-Adriatic_Sea_2003.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Adriatyckie — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Adriatyckie — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Adriatyckie",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Adriatyckie"
       },
@@ -447,7 +475,9 @@
     },
     {
       "id": "europe-morze-egejskie",
-      "name": "Egejskie",
+      "name": "Morze Egejskie",
+      "shortName": "Egejskie",
+      "objectType": "Morze",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -465,7 +495,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Aegeansea.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Egejskie — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Egejskie — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Egejskie",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Egejskie"
       },
@@ -473,7 +503,9 @@
     },
     {
       "id": "europe-morze-czarne",
-      "name": "Czarne",
+      "name": "Morze Czarne",
+      "shortName": "Czarne",
+      "objectType": "Morze",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -491,7 +523,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/BlackSea-1.A2003105.1035.250m.jpg/1280px-BlackSea-1.A2003105.1035.250m.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Czarne — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Czarne — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Czarne",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Czarne"
       },
@@ -499,7 +531,9 @@
     },
     {
       "id": "europe-morze-azowskie",
-      "name": "Azowskie",
+      "name": "Morze Azowskie",
+      "shortName": "Azowskie",
+      "objectType": "Morze",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -517,7 +551,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/AzovseaNASA.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Azowskie — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Azowskie — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Azowskie",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Azowskie"
       },
@@ -525,7 +559,9 @@
     },
     {
       "id": "europe-morze-kaspijskie",
-      "name": "Kaspijskie",
+      "name": "Morze Kaspijskie",
+      "shortName": "Kaspijskie",
+      "objectType": "Morze",
       "aliases": [
         "Kaspijskie"
       ],
@@ -545,7 +581,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Caspian_Sea_from_orbit.jpg/1280px-Caspian_Sea_from_orbit.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Kaspijskie — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Kaspijskie — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Kaspijskie",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Kaspijskie"
       },
@@ -553,7 +589,9 @@
     },
     {
       "id": "europe-zatoka-botnicka",
-      "name": "Botnicka",
+      "name": "Zatoka Botnicka",
+      "shortName": "Botnicka",
+      "objectType": "Zatoka",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -571,7 +609,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Baltic_Sea_map.png/1280px-Baltic_Sea_map.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Botnicka — zdjęcie lub mapa poglądowa",
+        "alt": "Zatoka Botnicka — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Zatoka Botnicka",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Zatoka_Botnicka"
       },
@@ -579,7 +617,9 @@
     },
     {
       "id": "europe-zatoka-ryska",
-      "name": "Ryska",
+      "name": "Zatoka Ryska",
+      "shortName": "Ryska",
+      "objectType": "Zatoka",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -597,7 +637,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/6/62/BalticSea-GulfOfRiga-EstonianCoast.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Ryska — zdjęcie lub mapa poglądowa",
+        "alt": "Zatoka Ryska — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Zatoka Ryska",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Zatoka_Ryska"
       },
@@ -605,7 +645,9 @@
     },
     {
       "id": "europe-zatoka-finska",
-      "name": "Fińska",
+      "name": "Zatoka Fińska",
+      "shortName": "Fińska",
+      "objectType": "Zatoka",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -623,7 +665,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Petersburg_zatoka.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Fińska — zdjęcie lub mapa poglądowa",
+        "alt": "Zatoka Fińska — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Zatoka Fińska",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Zatoka_Fi%C5%84ska"
       },
@@ -631,7 +673,9 @@
     },
     {
       "id": "europe-zatoka-biskajska",
-      "name": "Biskajska",
+      "name": "Zatoka Biskajska",
+      "shortName": "Biskajska",
+      "objectType": "Zatoka",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -649,7 +693,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Bay_of_Biscay_from_Terra_%282002-04-22%29.jpg/1280px-Bay_of_Biscay_from_Terra_%282002-04-22%29.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Biskajska — zdjęcie lub mapa poglądowa",
+        "alt": "Zatoka Biskajska — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Zatoka Biskajska",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Zatoka_Biskajska"
       },
@@ -657,7 +701,9 @@
     },
     {
       "id": "europe-ciesnina-kana-kattegat",
-      "name": "Kattegat",
+      "name": "Cieśnina Kattegat",
+      "shortName": "Kattegat",
+      "objectType": "Cieśnina",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -675,7 +721,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Styrso_Sandvik.jpg/1280px-Styrso_Sandvik.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Kattegat — zdjęcie lub mapa poglądowa",
+        "alt": "Cieśnina Kattegat — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Kattegat",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Kattegat"
       },
@@ -683,7 +729,9 @@
     },
     {
       "id": "europe-ciesnina-kana-skagerrak",
-      "name": "Skagerrak",
+      "name": "Cieśnina Skagerrak",
+      "shortName": "Skagerrak",
+      "objectType": "Cieśnina",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -701,7 +749,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Skagerrak_2_ubt.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Skagerrak — zdjęcie lub mapa poglądowa",
+        "alt": "Cieśnina Skagerrak — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Skagerrak",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Skagerrak"
       },
@@ -709,7 +757,9 @@
     },
     {
       "id": "europe-ciesnina-kana-kaletanska",
-      "name": "Kaletańska",
+      "name": "Cieśnina Kaletańska",
+      "shortName": "Kaletańska",
+      "objectType": "Cieśnina",
       "aliases": [
         "Dover"
       ],
@@ -729,7 +779,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Strait_of_Dover_MODIS.jpg/1280px-Strait_of_Dover_MODIS.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Kaletańska — zdjęcie lub mapa poglądowa",
+        "alt": "Cieśnina Kaletańska — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Cieśnina Kaletańska",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Cie%C5%9Bnina_Kaleta%C5%84ska"
       },
@@ -737,7 +787,9 @@
     },
     {
       "id": "europe-ciesnina-kana-gibraltarska",
-      "name": "Gibraltarska",
+      "name": "Cieśnina Gibraltarska",
+      "shortName": "Gibraltarska",
+      "objectType": "Cieśnina",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -755,7 +807,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/STS059-238-074_Strait_of_Gibraltar.jpg/1280px-STS059-238-074_Strait_of_Gibraltar.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Gibraltarska — zdjęcie lub mapa poglądowa",
+        "alt": "Cieśnina Gibraltarska — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Cieśnina Gibraltarska",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Cie%C5%9Bnina_Gibraltarska"
       },
@@ -763,7 +815,9 @@
     },
     {
       "id": "europe-ciesnina-kana-sycylijska",
-      "name": "Sycylijska",
+      "name": "Cieśnina Sycylijska",
+      "shortName": "Sycylijska",
+      "objectType": "Cieśnina",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -781,7 +835,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Tunisia_-_Sicily_-_South_Italy.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Sycylijska — zdjęcie lub mapa poglądowa",
+        "alt": "Cieśnina Sycylijska — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Cieśnina Sycylijska",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Cie%C5%9Bnina_Sycylijska"
       },
@@ -789,7 +843,9 @@
     },
     {
       "id": "europe-ciesnina-kana-dardanele",
-      "name": "Dardanele",
+      "name": "Cieśnina Dardanele",
+      "shortName": "Dardanele",
+      "objectType": "Cieśnina",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -807,7 +863,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Dardanelles_landsat.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Dardanele — zdjęcie lub mapa poglądowa",
+        "alt": "Cieśnina Dardanele — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Dardanele",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Dardanele"
       },
@@ -815,7 +871,9 @@
     },
     {
       "id": "europe-ciesnina-kana-bosfor",
-      "name": "Bosfor",
+      "name": "Cieśnina Bosfor",
+      "shortName": "Bosfor",
+      "objectType": "Cieśnina",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -833,7 +891,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Bosphorus_%E2%80%93_Bridges_and_Marmaray_in_Istanbul.JPG?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Bosfor — zdjęcie lub mapa poglądowa",
+        "alt": "Cieśnina Bosfor — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Bosfor",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Bosfor"
       },
@@ -841,7 +899,9 @@
     },
     {
       "id": "europe-ciesnina-kana-mesynska",
-      "name": "Mesyńska",
+      "name": "Cieśnina Mesyńska",
+      "shortName": "Mesyńska",
+      "objectType": "Cieśnina",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -859,7 +919,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Strait_of_Messina_from_Dinnammare.jpg/1280px-Strait_of_Messina_from_Dinnammare.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Mesyńska — zdjęcie lub mapa poglądowa",
+        "alt": "Cieśnina Mesyńska — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Cieśnina Mesyńska",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Cie%C5%9Bnina_Mesy%C5%84ska"
       },
@@ -868,6 +928,8 @@
     {
       "id": "europe-ciesnina-kana-kana-la-manche",
       "name": "Kanał La Manche",
+      "shortName": "Kanał La Manche",
+      "objectType": "Kanał morski",
       "aliases": [
         "Kanał Angielski"
       ],
@@ -896,6 +958,8 @@
     {
       "id": "europe-ciesnina-kana-kana-po-nocny",
       "name": "Kanał Północny",
+      "shortName": "Kanał Północny",
+      "objectType": "Cieśnina",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -921,7 +985,9 @@
     },
     {
       "id": "europe-wyspa-archipelag-nowa-ziemia",
-      "name": "Nowa Ziemia",
+      "name": "Archipelag Nowa Ziemia",
+      "shortName": "Nowa Ziemia",
+      "objectType": "Archipelag",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -939,7 +1005,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/NovayaZemlya.A2001222.0835.250m.jpg/1280px-NovayaZemlya.A2001222.0835.250m.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Nowa Ziemia — zdjęcie lub mapa poglądowa",
+        "alt": "Archipelag Nowa Ziemia — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Nowa Ziemia",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Nowa_Ziemia"
       },
@@ -947,7 +1013,9 @@
     },
     {
       "id": "europe-wyspa-archipelag-svalbard",
-      "name": "Svalbard",
+      "name": "Archipelag Svalbard",
+      "shortName": "Svalbard",
+      "objectType": "Archipelag",
       "aliases": [
         "Spitsbergen"
       ],
@@ -967,7 +1035,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Svalbard_%28MODIS%29.jpg/1280px-Svalbard_%28MODIS%29.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Svalbard — zdjęcie lub mapa poglądowa",
+        "alt": "Archipelag Svalbard — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Svalbard",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Svalbard"
       },
@@ -975,7 +1043,9 @@
     },
     {
       "id": "europe-wyspa-archipelag-islandia",
-      "name": "Islandia",
+      "name": "Wyspa Islandia",
+      "shortName": "Islandia",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -993,7 +1063,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Iceland_CIA_map_PL.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Islandia — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Islandia — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Islandia",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Islandia"
       },
@@ -1001,7 +1071,9 @@
     },
     {
       "id": "europe-wyspa-archipelag-owcze",
-      "name": "Owcze",
+      "name": "Wyspy Owcze",
+      "shortName": "Owcze",
+      "objectType": "Archipelag",
       "aliases": [
         "Faroe"
       ],
@@ -1021,7 +1093,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Faroe_Islands_by_Sentinel-2.jpg/1280px-Faroe_Islands_by_Sentinel-2.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Owcze — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspy Owcze — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Wyspy Owcze",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Wyspy_Owcze"
       },
@@ -1029,7 +1101,9 @@
     },
     {
       "id": "europe-wyspa-archipelag-szetlandy",
-      "name": "Szetlandy",
+      "name": "Wyspy Szetlandzkie (Szetlandy)",
+      "shortName": "Szetlandy",
+      "objectType": "Archipelag",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1047,7 +1121,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Shetlandinseln_%28Landsat%29.jpg/1280px-Shetlandinseln_%28Landsat%29.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Szetlandy — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspy Szetlandzkie (Szetlandy) — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Szetlandy",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Szetlandy"
       },
@@ -1055,7 +1129,9 @@
     },
     {
       "id": "europe-wyspa-archipelag-wielka-brytania",
-      "name": "Wielka Brytania",
+      "name": "Wyspa Wielka Brytania",
+      "shortName": "Wielka Brytania",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1073,7 +1149,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Satellite_image_of_Great_Britain_and_Northern_Ireland_in_April_2002.jpg/1280px-Satellite_image_of_Great_Britain_and_Northern_Ireland_in_April_2002.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Wielka Brytania — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Wielka Brytania — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Wielka Brytania (wyspa)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Wielka_Brytania_(wyspa)"
       },
@@ -1081,7 +1157,9 @@
     },
     {
       "id": "europe-wyspa-archipelag-irlandia",
-      "name": "Irlandia",
+      "name": "Wyspa Irlandia",
+      "shortName": "Irlandia",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1099,7 +1177,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Ireland_%28MODIS%29.jpg/1280px-Ireland_%28MODIS%29.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Irlandia — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Irlandia — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Irlandia (wyspa)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Irlandia_(wyspa)"
       },
@@ -1107,7 +1185,9 @@
     },
     {
       "id": "europe-wyspa-archipelag-bornholm",
-      "name": "Bornholm",
+      "name": "Wyspa Bornholm",
+      "shortName": "Bornholm",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1125,7 +1205,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Bornholm_-_zdj%C4%99cie_lotnicze.jpg/1280px-Bornholm_-_zdj%C4%99cie_lotnicze.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Bornholm — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Bornholm — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Bornholm",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Bornholm"
       },
@@ -1133,7 +1213,9 @@
     },
     {
       "id": "europe-wyspa-archipelag-gotlandia",
-      "name": "Gotlandia",
+      "name": "Wyspa Gotlandia",
+      "shortName": "Gotlandia",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1151,7 +1233,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Gotland_Landsat2000.jpeg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Gotlandia — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Gotlandia — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Gotlandia",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Gotlandia"
       },
@@ -1159,7 +1241,9 @@
     },
     {
       "id": "europe-wyspa-archipelag-baleary-majorka-ibiza-minorka",
-      "name": "Baleary (Majorka, Ibiza, Minorka)",
+      "name": "Archipelag Balearów (Majorka, Ibiza, Minorka)",
+      "shortName": "Baleary (Majorka, Ibiza, Minorka)",
+      "objectType": "Archipelag",
       "aliases": [
         "Majorka",
         "Ibiza",
@@ -1181,7 +1265,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Localizaci%C3%B3n_de_las_Islas_Baleares.svg/1280px-Localizaci%C3%B3n_de_las_Islas_Baleares.svg.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Baleary (Majorka, Ibiza, Minorka) — zdjęcie lub mapa poglądowa",
+        "alt": "Archipelag Balearów (Majorka, Ibiza, Minorka) — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Baleary",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Baleary"
       },
@@ -1189,7 +1273,9 @@
     },
     {
       "id": "europe-wyspa-archipelag-korsyka",
-      "name": "Korsyka",
+      "name": "Wyspa Korsyka",
+      "shortName": "Korsyka",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1207,7 +1293,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Corse-photosat.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Korsyka — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Korsyka — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Korsyka",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Korsyka"
       },
@@ -1215,7 +1301,9 @@
     },
     {
       "id": "europe-wyspa-archipelag-sardynia",
-      "name": "Sardynia",
+      "name": "Wyspa Sardynia",
+      "shortName": "Sardynia",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1233,7 +1321,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/48/Sardinia_satellite.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Sardynia — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Sardynia — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Sardynia",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Sardynia"
       },
@@ -1241,7 +1329,9 @@
     },
     {
       "id": "europe-wyspa-archipelag-sycylia",
-      "name": "Sycylia",
+      "name": "Wyspa Sycylia",
+      "shortName": "Sycylia",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1259,7 +1349,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/20101207-etna-full_%2814213006863%29.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Sycylia — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Sycylia — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Sycylia",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Sycylia"
       },
@@ -1267,7 +1357,9 @@
     },
     {
       "id": "europe-wyspa-archipelag-kreta",
-      "name": "Kreta",
+      "name": "Wyspa Kreta",
+      "shortName": "Kreta",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1285,7 +1377,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Chania_-_Lighthouse.jpg/1280px-Chania_-_Lighthouse.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Kreta — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Kreta — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Kreta",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Kreta"
       },
@@ -1293,7 +1385,9 @@
     },
     {
       "id": "europe-wyspa-archipelag-cypr",
-      "name": "Cypr",
+      "name": "Wyspa Cypr",
+      "shortName": "Cypr",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1311,7 +1405,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Cy-map.svg/1280px-Cy-map.svg.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Cypr — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Cypr — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Cypr",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Cypr"
       },
@@ -1319,7 +1413,9 @@
     },
     {
       "id": "europe-rzeka-niemen",
-      "name": "Niemen",
+      "name": "Rzeka Niemen",
+      "shortName": "Niemen",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1337,7 +1433,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Nemunas.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Niemen — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Niemen — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Niemen",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Niemen"
       },
@@ -1345,7 +1441,9 @@
     },
     {
       "id": "europe-rzeka-wo-ga",
-      "name": "Wołga",
+      "name": "Rzeka Wołga",
+      "shortName": "Wołga",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1363,7 +1461,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Volgarivermap.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Wołga — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Wołga — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Wołga",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Wo%C5%82ga"
       },
@@ -1371,7 +1469,9 @@
     },
     {
       "id": "europe-rzeka-dniepr",
-      "name": "Dniepr",
+      "name": "Rzeka Dniepr",
+      "shortName": "Dniepr",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1389,7 +1489,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Dniepr_river_in_Kyiv.jpg/1280px-Dniepr_river_in_Kyiv.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Dniepr — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Dniepr — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Dniepr",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Dniepr"
       },
@@ -1397,7 +1497,9 @@
     },
     {
       "id": "europe-rzeka-dniestr",
-      "name": "Dniestr",
+      "name": "Rzeka Dniestr",
+      "shortName": "Dniestr",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1415,7 +1517,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Ukraine_-_Dniester_river_by_Khotyn.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Dniestr — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Dniestr — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Dniestr",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Dniestr"
       },
@@ -1423,7 +1525,9 @@
     },
     {
       "id": "europe-rzeka-dunaj",
-      "name": "Dunaj",
+      "name": "Rzeka Dunaj",
+      "shortName": "Dunaj",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1441,7 +1545,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Budapest_from_Gellert_Hill.jpg/1280px-Budapest_from_Gellert_Hill.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Dunaj — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Dunaj — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Dunaj",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Dunaj"
       },
@@ -1449,7 +1553,9 @@
     },
     {
       "id": "europe-rzeka-pad",
-      "name": "Pad",
+      "name": "Rzeka Pad",
+      "shortName": "Pad",
+      "objectType": "Rzeka",
       "aliases": [
         "Po"
       ],
@@ -1469,7 +1575,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/72/LocationPoRiver.PNG?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Pad — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Pad — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Pad (rzeka)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Pad_(rzeka)"
       },
@@ -1477,7 +1583,9 @@
     },
     {
       "id": "europe-rzeka-ebro",
-      "name": "Ebro",
+      "name": "Rzeka Ebro",
+      "shortName": "Ebro",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1495,7 +1603,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/0849_pilar_ebro_2004.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Ebro — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Ebro — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Ebro",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Ebro"
       },
@@ -1503,7 +1611,9 @@
     },
     {
       "id": "europe-rzeka-tag",
-      "name": "Tag",
+      "name": "Rzeka Tag",
+      "shortName": "Tag",
+      "objectType": "Rzeka",
       "aliases": [
         "Tagus",
         "Tejo"
@@ -1524,7 +1634,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Foz_do_Tejo%2C_tirado_da_ponte_%2225_de_Abril%22.jpg/1280px-Foz_do_Tejo%2C_tirado_da_ponte_%2225_de_Abril%22.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Tag — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Tag — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Tag (rzeka)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Tag_(rzeka)"
       },
@@ -1532,7 +1642,9 @@
     },
     {
       "id": "europe-rzeka-loara",
-      "name": "Loara",
+      "name": "Rzeka Loara",
+      "shortName": "Loara",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1550,7 +1662,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Orleans.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Loara — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Loara — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Loara",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Loara"
       },
@@ -1558,7 +1670,9 @@
     },
     {
       "id": "europe-rzeka-sekwana",
-      "name": "Sekwana",
+      "name": "Rzeka Sekwana",
+      "shortName": "Sekwana",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1576,7 +1690,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Rouen_France_Panoramic-View-02.jpg/1280px-Rouen_France_Panoramic-View-02.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Sekwana — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Sekwana — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Sekwana",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Sekwana"
       },
@@ -1584,7 +1698,9 @@
     },
     {
       "id": "europe-rzeka-ren",
-      "name": "Ren",
+      "name": "Rzeka Ren",
+      "shortName": "Ren",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1602,7 +1718,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/One_autumn_morning_in_Basel_v2.jpg/1280px-One_autumn_morning_in_Basel_v2.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Ren — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Ren — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Ren",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Ren"
       },
@@ -1610,7 +1726,9 @@
     },
     {
       "id": "europe-rzeka-aba",
-      "name": "Łaba",
+      "name": "Rzeka Łaba",
+      "shortName": "Łaba",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1628,7 +1746,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Festung_Koenigstein_asv2023-01_img17_Aussicht.jpg/1280px-Festung_Koenigstein_asv2023-01_img17_Aussicht.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Łaba — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Łaba — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Łaba",
         "sourceUrl": "https://pl.wikipedia.org/wiki/%C5%81aba"
       },
@@ -1636,7 +1754,9 @@
     },
     {
       "id": "europe-rzeka-odra",
-      "name": "Odra",
+      "name": "Rzeka Odra",
+      "shortName": "Odra",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1654,7 +1774,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/01_Luftbild_Frankfurt_oder_Slubice_09072011.jpg/1280px-01_Luftbild_Frankfurt_oder_Slubice_09072011.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Odra — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Odra — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Odra",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Odra"
       },
@@ -1662,7 +1782,9 @@
     },
     {
       "id": "europe-rzeka-wis-a",
-      "name": "Wisła",
+      "name": "Rzeka Wisła",
+      "shortName": "Wisła",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1680,7 +1802,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Wis%C5%82a_pod_Annopolem.jpg/1280px-Wis%C5%82a_pod_Annopolem.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Wisła — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Wisła — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Wisła",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Wis%C5%82a"
       },
@@ -1688,7 +1810,9 @@
     },
     {
       "id": "europe-rzeka-rodan",
-      "name": "Rodan",
+      "name": "Rzeka Rodan",
+      "shortName": "Rodan",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1706,7 +1830,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Saint-benezet_in_southeastern_France.jpg/1280px-Saint-benezet_in_southeastern_France.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Rodan — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Rodan — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Rodan",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Rodan"
       },
@@ -1714,7 +1838,9 @@
     },
     {
       "id": "europe-rzeka-tamiza",
-      "name": "Tamiza",
+      "name": "Rzeka Tamiza",
+      "shortName": "Tamiza",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1732,7 +1858,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Thames_river_lambeth_bridge.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Tamiza — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Tamiza — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Tamiza",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Tamiza"
       },
@@ -1740,7 +1866,9 @@
     },
     {
       "id": "europe-jezioro-wener",
-      "name": "Wener",
+      "name": "Jezioro Wener",
+      "shortName": "Wener",
+      "objectType": "Jezioro",
       "aliases": [
         "Vänern"
       ],
@@ -1760,7 +1888,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/H%C3%A4llekis_industrier_sedda_fr_utsiktstornet_p%C3%A5_Kinnekulle_6116.jpg/1280px-H%C3%A4llekis_industrier_sedda_fr_utsiktstornet_p%C3%A5_Kinnekulle_6116.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Wener — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Wener — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Wener",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Wener"
       },
@@ -1768,7 +1896,9 @@
     },
     {
       "id": "europe-jezioro-wetter",
-      "name": "Wetter",
+      "name": "Jezioro Wetter",
+      "shortName": "Wetter",
+      "objectType": "Jezioro",
       "aliases": [
         "Vättern"
       ],
@@ -1788,7 +1918,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Sunset_with_gull.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Wetter — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Wetter — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Wetter (jezioro)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Wetter_(jezioro)"
       },
@@ -1796,7 +1926,9 @@
     },
     {
       "id": "europe-jezioro-adoga",
-      "name": "Ładoga",
+      "name": "Jezioro Ładoga",
+      "shortName": "Ładoga",
+      "objectType": "Jezioro",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1814,7 +1946,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Sortavalan_saaristoa.jpg/1280px-Sortavalan_saaristoa.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Ładoga — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Ładoga — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Ładoga",
         "sourceUrl": "https://pl.wikipedia.org/wiki/%C5%81adoga"
       },
@@ -1822,7 +1954,9 @@
     },
     {
       "id": "europe-jezioro-onega",
-      "name": "Onega",
+      "name": "Jezioro Onega",
+      "shortName": "Onega",
+      "objectType": "Jezioro",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1840,7 +1974,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/40-th_Regatta_Onego-2011.JPG/1280px-40-th_Regatta_Onego-2011.JPG?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Onega — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Onega — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Onega (jezioro)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Onega_(jezioro)"
       },
@@ -1848,7 +1982,9 @@
     },
     {
       "id": "europe-jezioro-balaton",
-      "name": "Balaton",
+      "name": "Jezioro Balaton",
+      "shortName": "Balaton",
+      "objectType": "Jezioro",
       "aliases": [],
       "region": "europe",
       "regionName": "Europa",
@@ -1866,7 +2002,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Balatonlelle%2C_Balaton%2C_49.jpg/1280px-Balatonlelle%2C_Balaton%2C_49.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Balaton — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Balaton — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Balaton",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Balaton"
       },
@@ -1874,7 +2010,9 @@
     },
     {
       "id": "asia-jezioro-bajka",
-      "name": "Bajkał",
+      "name": "Jezioro Bajkał",
+      "shortName": "Bajkał",
+      "objectType": "Jezioro",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -1892,7 +2030,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Baikal.A2001296.0420.250m-NASA_%281%29.jpg/1280px-Baikal.A2001296.0420.250m-NASA_%281%29.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Bajkał — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Bajkał — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Bajkał",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Bajka%C5%82"
       },
@@ -1900,7 +2038,9 @@
     },
     {
       "id": "asia-jezioro-ba-chasz",
-      "name": "Bałchasz",
+      "name": "Jezioro Bałchasz",
+      "shortName": "Bałchasz",
+      "objectType": "Jezioro",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -1918,7 +2058,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/LakeBalkhash_NASA_2003_1120545-250m.jpg/1280px-LakeBalkhash_NASA_2003_1120545-250m.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Bałchasz — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Bałchasz — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Bałchasz (jezioro)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Ba%C5%82chasz_(jezioro)"
       },
@@ -1926,7 +2066,9 @@
     },
     {
       "id": "asia-jezioro-aralskie",
-      "name": "Aralskie",
+      "name": "Jezioro Aralskie",
+      "shortName": "Aralskie",
+      "objectType": "Jezioro",
       "aliases": [
         "Aral"
       ],
@@ -1946,7 +2088,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Aral_Sea_2021.jpg/1280px-Aral_Sea_2021.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Aralskie — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Aralskie — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Jezioro Aralskie",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Jezioro_Aralskie"
       },
@@ -1954,7 +2096,9 @@
     },
     {
       "id": "asia-jezioro-kaspijskie",
-      "name": "Kaspijskie",
+      "name": "Morze Kaspijskie",
+      "shortName": "Kaspijskie",
+      "objectType": "Jezioro słone",
       "aliases": [
         "Kaspijskie"
       ],
@@ -1974,7 +2118,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Caspian_Sea_from_orbit.jpg/1280px-Caspian_Sea_from_orbit.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Kaspijskie — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Kaspijskie — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Kaspijskie",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Kaspijskie"
       },
@@ -1982,7 +2126,9 @@
     },
     {
       "id": "asia-rzeka-ob-z-irtyszem",
-      "name": "Ob z Irtyszem",
+      "name": "Rzeka Ob z Irtyszem",
+      "shortName": "Ob z Irtyszem",
+      "objectType": "Rzeka",
       "aliases": [
         "Ob",
         "Irtysz"
@@ -2003,7 +2149,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/%D0%91%D1%83%D1%80%D0%B3%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%BE%D1%81%D1%82_%D1%81_%D0%B2%D0%BE%D0%B7%D0%B4%D1%83%D1%85%D0%B0.jpg/1280px-%D0%91%D1%83%D1%80%D0%B3%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BC%D0%BE%D1%81%D1%82_%D1%81_%D0%B2%D0%BE%D0%B7%D0%B4%D1%83%D1%85%D0%B0.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Ob z Irtyszem — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Ob z Irtyszem — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Ob",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Ob"
       },
@@ -2011,7 +2157,9 @@
     },
     {
       "id": "asia-rzeka-jenisej",
-      "name": "Jenisej",
+      "name": "Rzeka Jenisej",
+      "shortName": "Jenisej",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2029,7 +2177,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/%D0%A1%D0%BC%D0%BE%D1%82%D1%80%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B0_%D0%B1%D0%BB%D0%B8%D0%B7_%D0%A1%D0%BB%D0%B8%D0%B7%D0%BD%D0%B5%D0%B2%D0%BE_%2803%29.JPG/1280px-%D0%A1%D0%BC%D0%BE%D1%82%D1%80%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B0_%D0%B1%D0%BB%D0%B8%D0%B7_%D0%A1%D0%BB%D0%B8%D0%B7%D0%BD%D0%B5%D0%B2%D0%BE_%2803%29.JPG?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Jenisej — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Jenisej — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Jenisej",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Jenisej"
       },
@@ -2037,7 +2185,9 @@
     },
     {
       "id": "asia-rzeka-lena",
-      "name": "Lena",
+      "name": "Rzeka Lena",
+      "shortName": "Lena",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2055,7 +2205,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/LenaJakutsk.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Lena — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Lena — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Lena (rzeka)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Lena_(rzeka)"
       },
@@ -2063,7 +2213,9 @@
     },
     {
       "id": "asia-rzeka-ko-yma",
-      "name": "Kołyma",
+      "name": "Rzeka Kołyma",
+      "shortName": "Kołyma",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2081,7 +2233,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Kolymarivermap.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Kołyma — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Kołyma — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Kołyma",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Ko%C5%82yma"
       },
@@ -2089,7 +2241,9 @@
     },
     {
       "id": "asia-rzeka-huangho-rzeka-zo-ta",
-      "name": "Huangho (Rzeka Żółta)",
+      "name": "Rzeka Huang He (Rzeka Żółta)",
+      "shortName": "Huangho (Rzeka Żółta)",
+      "objectType": "Rzeka",
       "aliases": [
         "Huangho",
         "Rzeka Żółta"
@@ -2110,7 +2264,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/YellowRiver_Gorges.jpg/1280px-YellowRiver_Gorges.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Huangho (Rzeka Żółta) — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Huang He (Rzeka Żółta) — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Huang He",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Huang_He"
       },
@@ -2118,7 +2272,9 @@
     },
     {
       "id": "asia-rzeka-jangcy",
-      "name": "Jangcy",
+      "name": "Rzeka Jangcy",
+      "shortName": "Jangcy",
+      "objectType": "Rzeka",
       "aliases": [
         "Chang Jiang"
       ],
@@ -2138,7 +2294,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Lower_yangtze.png/1280px-Lower_yangtze.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Jangcy — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Jangcy — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Jangcy",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Jangcy"
       },
@@ -2146,7 +2302,9 @@
     },
     {
       "id": "asia-rzeka-mekong",
-      "name": "Mekong",
+      "name": "Rzeka Mekong",
+      "shortName": "Mekong",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2164,7 +2322,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Chiang_Saen%2C_Mekong_River%2C_Thailand.jpg/1280px-Chiang_Saen%2C_Mekong_River%2C_Thailand.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Mekong — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Mekong — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Mekong",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Mekong"
       },
@@ -2172,7 +2330,9 @@
     },
     {
       "id": "asia-rzeka-ganges",
-      "name": "Ganges",
+      "name": "Rzeka Ganges",
+      "shortName": "Ganges",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2190,7 +2350,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Ganga_at_Kaudiayala.jpg/1280px-Ganga_at_Kaudiayala.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Ganges — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Ganges — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Ganges",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Ganges"
       },
@@ -2198,7 +2358,9 @@
     },
     {
       "id": "asia-rzeka-brahmaputra",
-      "name": "Brahmaputra",
+      "name": "Rzeka Brahmaputra",
+      "shortName": "Brahmaputra",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2216,7 +2378,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Brahmaputrarivermap.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Brahmaputra — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Brahmaputra — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Brahmaputra",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Brahmaputra"
       },
@@ -2224,7 +2386,9 @@
     },
     {
       "id": "asia-rzeka-indus",
-      "name": "Indus",
+      "name": "Rzeka Indus",
+      "shortName": "Indus",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2242,7 +2406,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Indus_river_from_karakouram_highway.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Indus — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Indus — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Indus",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Indus"
       },
@@ -2250,7 +2414,9 @@
     },
     {
       "id": "asia-rzeka-tygrys",
-      "name": "Tygrys",
+      "name": "Rzeka Tygrys",
+      "shortName": "Tygrys",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2268,7 +2434,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Tigris_River_At_Diyarbakir.JPG/1280px-Tigris_River_At_Diyarbakir.JPG?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Tygrys — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Tygrys — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Tygrys (rzeka)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Tygrys_(rzeka)"
       },
@@ -2276,7 +2442,9 @@
     },
     {
       "id": "asia-rzeka-eufrat",
-      "name": "Eufrat",
+      "name": "Rzeka Eufrat",
+      "shortName": "Eufrat",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2294,7 +2462,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Euphrates_rivr%2C_in_Deir_ez-Zor%2C_Syria_-_1.JPG/1280px-Euphrates_rivr%2C_in_Deir_ez-Zor%2C_Syria_-_1.JPG?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Eufrat — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Eufrat — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Eufrat",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Eufrat"
       },
@@ -2302,7 +2470,9 @@
     },
     {
       "id": "asia-rzeka-amu-daria",
-      "name": "Amu-daria",
+      "name": "Rzeka Amu-daria",
+      "shortName": "Amu-daria",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2320,7 +2490,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Amu_darya_delta.jpg/1280px-Amu_darya_delta.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Amu-daria — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Amu-daria — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Amu-daria",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Amu-daria"
       },
@@ -2328,7 +2498,9 @@
     },
     {
       "id": "asia-rzeka-syr-daria",
-      "name": "Syr-daria",
+      "name": "Rzeka Syr-daria",
+      "shortName": "Syr-daria",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2346,7 +2518,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Syr_Darya_river.jpg/1280px-Syr_Darya_river.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Syr-daria — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Syr-daria — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Syr-daria",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Syr-daria"
       },
@@ -2354,7 +2526,9 @@
     },
     {
       "id": "asia-wyspa-archipelag-kuryle",
-      "name": "Kuryle",
+      "name": "Wyspy Kurylskie (Kuryle)",
+      "shortName": "Kuryle",
+      "objectType": "Archipelag",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2372,7 +2546,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Kurilen-Text.jpg/1280px-Kurilen-Text.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Kuryle — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspy Kurylskie (Kuryle) — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Wyspy Kurylskie",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Wyspy_Kurylskie"
       },
@@ -2380,7 +2554,9 @@
     },
     {
       "id": "asia-wyspa-archipelag-sachalin",
-      "name": "Sachalin",
+      "name": "Wyspa Sachalin",
+      "shortName": "Sachalin",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2398,7 +2574,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Sakhalin_Terra_MODIS.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Sachalin — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Sachalin — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Sachalin",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Sachalin"
       },
@@ -2406,7 +2582,9 @@
     },
     {
       "id": "asia-wyspa-archipelag-hokkaido",
-      "name": "Hokkaido",
+      "name": "Wyspa Hokkaido",
+      "shortName": "Hokkaido",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2424,7 +2602,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/140829_Ichiko_of_Shiretoko_Goko_Lakes_Hokkaido_Japan04s3.jpg/1280px-140829_Ichiko_of_Shiretoko_Goko_Lakes_Hokkaido_Japan04s3.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Hokkaido — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Hokkaido — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Hokkaido",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Hokkaido"
       },
@@ -2432,7 +2610,9 @@
     },
     {
       "id": "asia-wyspa-archipelag-honsiu",
-      "name": "Honsiu",
+      "name": "Wyspa Honsiu",
+      "shortName": "Honsiu",
+      "objectType": "Wyspa",
       "aliases": [
         "Honshu"
       ],
@@ -2452,7 +2632,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Japan_honshu_map.svg/1280px-Japan_honshu_map.svg.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Honsiu — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Honsiu — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Honsiu",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Honsiu"
       },
@@ -2460,7 +2640,9 @@
     },
     {
       "id": "asia-wyspa-archipelag-tajwan",
-      "name": "Tajwan",
+      "name": "Wyspa Tajwan",
+      "shortName": "Tajwan",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2478,7 +2660,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Taiwan_NASA_Terra_MODIS_2022-07-21.jpg/1280px-Taiwan_NASA_Terra_MODIS_2022-07-21.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Tajwan — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Tajwan — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Tajwan (wyspa)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Tajwan_(wyspa)"
       },
@@ -2486,7 +2668,9 @@
     },
     {
       "id": "asia-wyspa-archipelag-filipiny",
-      "name": "Filipiny",
+      "name": "Archipelag Filipiński (Filipiny)",
+      "shortName": "Filipiny",
+      "objectType": "Archipelag",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2504,7 +2688,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Philippines_-_Location_Map_%282013%29_-_PHL_-_UNOCHA.svg/1280px-Philippines_-_Location_Map_%282013%29_-_PHL_-_UNOCHA.svg.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Filipiny — zdjęcie lub mapa poglądowa",
+        "alt": "Archipelag Filipiński (Filipiny) — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Filipiny",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Filipiny"
       },
@@ -2512,7 +2696,9 @@
     },
     {
       "id": "asia-wyspa-archipelag-sumatra",
-      "name": "Sumatra",
+      "name": "Wyspa Sumatra",
+      "shortName": "Sumatra",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2530,7 +2716,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Sumatra_Topography.png/1280px-Sumatra_Topography.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Sumatra — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Sumatra — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Sumatra",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Sumatra"
       },
@@ -2538,7 +2724,9 @@
     },
     {
       "id": "asia-wyspa-archipelag-jawa",
-      "name": "Jawa",
+      "name": "Wyspa Jawa",
+      "shortName": "Jawa",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2556,7 +2744,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Java_Topography.png/1280px-Java_Topography.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Jawa — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Jawa — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Jawa",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Jawa"
       },
@@ -2564,7 +2752,9 @@
     },
     {
       "id": "asia-wyspa-archipelag-borneo",
-      "name": "Borneo",
+      "name": "Wyspa Borneo",
+      "shortName": "Borneo",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2582,7 +2772,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Borneo_sat.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Borneo — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Borneo — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Borneo",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Borneo"
       },
@@ -2591,6 +2781,8 @@
     {
       "id": "asia-wyspa-archipelag-archipelag-malajski",
       "name": "Archipelag Malajski",
+      "shortName": "Archipelag Malajski",
+      "objectType": "Archipelag",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2616,7 +2808,9 @@
     },
     {
       "id": "asia-wyspa-archipelag-cejlon",
-      "name": "Cejlon",
+      "name": "Wyspa Cejlon (Sri Lanka)",
+      "shortName": "Cejlon",
+      "objectType": "Wyspa",
       "aliases": [
         "Cejlon"
       ],
@@ -2636,7 +2830,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Sri_Lanka_CIA_map_PL.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Cejlon — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Cejlon (Sri Lanka) — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Sri Lanka",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Sri_Lanka"
       },
@@ -2644,7 +2838,9 @@
     },
     {
       "id": "asia-wyspa-archipelag-malediwy",
-      "name": "Malediwy",
+      "name": "Archipelag Malediwów",
+      "shortName": "Malediwy",
+      "objectType": "Archipelag",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2662,7 +2858,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/e5/MaldivesMap.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Malediwy — zdjęcie lub mapa poglądowa",
+        "alt": "Archipelag Malediwów — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Malediwy",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Malediwy"
       },
@@ -2670,7 +2866,9 @@
     },
     {
       "id": "asia-morze-wschodniosyberyjskie",
-      "name": "Wschodniosyberyjskie",
+      "name": "Morze Wschodniosyberyjskie",
+      "shortName": "Wschodniosyberyjskie",
+      "objectType": "Morze",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2688,7 +2886,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/28/Esiberiasea_amo_2007208.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Wschodniosyberyjskie — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Wschodniosyberyjskie — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Wschodniosyberyjskie",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Wschodniosyberyjskie"
       },
@@ -2696,7 +2894,9 @@
     },
     {
       "id": "asia-morze-beringa",
-      "name": "Beringa",
+      "name": "Morze Beringa",
+      "shortName": "Beringa",
+      "objectType": "Morze",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2714,7 +2914,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/BeringSea.jpg/1280px-BeringSea.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Beringa — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Beringa — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Beringa",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Beringa"
       },
@@ -2722,7 +2922,9 @@
     },
     {
       "id": "asia-morze-ochockie",
-      "name": "Ochockie",
+      "name": "Morze Ochockie",
+      "shortName": "Ochockie",
+      "objectType": "Morze",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2740,7 +2942,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Buchta_Nagajewa_%28Magadan%29.jpeg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Ochockie — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Ochockie — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Ochockie",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Ochockie"
       },
@@ -2748,7 +2950,9 @@
     },
     {
       "id": "asia-morze-japonskie",
-      "name": "Japońskie",
+      "name": "Morze Japońskie",
+      "shortName": "Japońskie",
+      "objectType": "Morze",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2766,7 +2970,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Sea_of_Japan_Map_en.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Japońskie — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Japońskie — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Japońskie",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Japo%C5%84skie"
       },
@@ -2774,7 +2978,9 @@
     },
     {
       "id": "asia-morze-zo-te",
-      "name": "Żółte",
+      "name": "Morze Żółte",
+      "shortName": "Żółte",
+      "objectType": "Morze",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2792,7 +2998,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/SandSpillsInYellowSea.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Żółte — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Żółte — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Żółte",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_%C5%BB%C3%B3%C5%82te"
       },
@@ -2800,7 +3006,9 @@
     },
     {
       "id": "asia-morze-filipinskie",
-      "name": "Filipińskie",
+      "name": "Morze Filipińskie",
+      "shortName": "Filipińskie",
+      "objectType": "Morze",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2818,7 +3026,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/In_Sea_-_panoramio_%281%29.jpg/1280px-In_Sea_-_panoramio_%281%29.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Filipińskie — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Filipińskie — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Filipińskie",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Filipi%C5%84skie"
       },
@@ -2826,7 +3034,9 @@
     },
     {
       "id": "asia-morze-po-udniowochinskie",
-      "name": "Południowochińskie",
+      "name": "Morze Południowochińskie",
+      "shortName": "Południowochińskie",
+      "objectType": "Morze",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2844,7 +3054,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Mar_de_China_Meridional_-_BM_WMS_2004.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Południowochińskie — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Południowochińskie — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Południowochińskie",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Po%C5%82udniowochi%C5%84skie"
       },
@@ -2852,7 +3062,9 @@
     },
     {
       "id": "asia-morze-jawajskie",
-      "name": "Jawajskie",
+      "name": "Morze Jawajskie",
+      "shortName": "Jawajskie",
+      "objectType": "Morze",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2870,7 +3082,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Gunung_Merapi_2006-05-14%2C_MODIS.jpg/1280px-Gunung_Merapi_2006-05-14%2C_MODIS.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Jawajskie — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Jawajskie — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Jawajskie",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Jawajskie"
       },
@@ -2878,7 +3090,9 @@
     },
     {
       "id": "asia-morze-arabskie",
-      "name": "Arabskie",
+      "name": "Morze Arabskie",
+      "shortName": "Arabskie",
+      "objectType": "Morze",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2896,7 +3110,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Kannurfort1.JPG/1280px-Kannurfort1.JPG?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Arabskie — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Arabskie — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Arabskie",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Arabskie"
       },
@@ -2904,7 +3118,9 @@
     },
     {
       "id": "asia-morze-czerwone",
-      "name": "Czerwone",
+      "name": "Morze Czerwone",
+      "shortName": "Czerwone",
+      "objectType": "Morze",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2922,7 +3138,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/RedSea.A2004273.1050.250m.jpg/1280px-RedSea.A2004273.1050.250m.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Czerwone — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Czerwone — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Czerwone",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Czerwone"
       },
@@ -2930,7 +3146,9 @@
     },
     {
       "id": "asia-zatoka-bengalska",
-      "name": "Bengalska",
+      "name": "Zatoka Bengalska",
+      "shortName": "Bengalska",
+      "objectType": "Zatoka",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2948,7 +3166,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Bay_of_Bengal_from_Himchori.JPG/1280px-Bay_of_Bengal_from_Himchori.JPG?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Bengalska — zdjęcie lub mapa poglądowa",
+        "alt": "Zatoka Bengalska — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Zatoka Bengalska",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Zatoka_Bengalska"
       },
@@ -2956,7 +3174,9 @@
     },
     {
       "id": "asia-zatoka-omanska",
-      "name": "Omańska",
+      "name": "Zatoka Omańska",
+      "shortName": "Omańska",
+      "objectType": "Zatoka",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -2974,7 +3194,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/The_aircraft_carrier_USS_Harry_S._Truman_%28CVN_75%29_steams_through_the_Gulf_of_Oman_Oct._19%2C_2013_131019-N-UP035-398.jpg/1280px-The_aircraft_carrier_USS_Harry_S._Truman_%28CVN_75%29_steams_through_the_Gulf_of_Oman_Oct._19%2C_2013_131019-N-UP035-398.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Omańska — zdjęcie lub mapa poglądowa",
+        "alt": "Zatoka Omańska — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Zatoka Omańska",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Zatoka_Oma%C5%84ska"
       },
@@ -2982,7 +3202,9 @@
     },
     {
       "id": "asia-zatoka-perska",
-      "name": "Perska",
+      "name": "Zatoka Perska",
+      "shortName": "Perska",
+      "objectType": "Zatoka",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -3000,7 +3222,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/PersianGulf_vue_satellite_du_golfe_persique.jpg/1280px-PersianGulf_vue_satellite_du_golfe_persique.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Perska — zdjęcie lub mapa poglądowa",
+        "alt": "Zatoka Perska — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Zatoka Perska",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Zatoka_Perska"
       },
@@ -3008,7 +3230,9 @@
     },
     {
       "id": "asia-zatoka-adenska",
-      "name": "Adeńska",
+      "name": "Zatoka Adeńska",
+      "shortName": "Adeńska",
+      "objectType": "Zatoka",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -3026,7 +3250,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/ISS062-E-51221_-_View_of_Earth.jpg/1280px-ISS062-E-51221_-_View_of_Earth.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Adeńska — zdjęcie lub mapa poglądowa",
+        "alt": "Zatoka Adeńska — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Zatoka Adeńska",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Zatoka_Ade%C5%84ska"
       },
@@ -3034,7 +3258,9 @@
     },
     {
       "id": "asia-ciesnina-kana-beringa",
-      "name": "Beringa",
+      "name": "Cieśnina Beringa",
+      "shortName": "Beringa",
+      "objectType": "Cieśnina",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -3052,7 +3278,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Bering_Strait.jpeg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Beringa — zdjęcie lub mapa poglądowa",
+        "alt": "Cieśnina Beringa — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Cieśnina Beringa",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Cie%C5%9Bnina_Beringa"
       },
@@ -3060,7 +3286,9 @@
     },
     {
       "id": "asia-ciesnina-kana-makasarska",
-      "name": "Makasarska",
+      "name": "Cieśnina Makasarska",
+      "shortName": "Makasarska",
+      "objectType": "Cieśnina",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -3078,7 +3306,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Makassar_Strait.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Makasarska — zdjęcie lub mapa poglądowa",
+        "alt": "Cieśnina Makasarska — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Cieśnina Makasarska",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Cie%C5%9Bnina_Makasarska"
       },
@@ -3086,7 +3314,9 @@
     },
     {
       "id": "asia-ciesnina-kana-malakka",
-      "name": "Malakka",
+      "name": "Cieśnina Malakka",
+      "shortName": "Malakka",
+      "objectType": "Cieśnina",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -3104,7 +3334,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Strait_of_Malacca_%2836759635615%29.jpg/1280px-Strait_of_Malacca_%2836759635615%29.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Malakka — zdjęcie lub mapa poglądowa",
+        "alt": "Cieśnina Malakka — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Cieśnina Malakka",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Cie%C5%9Bnina_Malakka"
       },
@@ -3112,7 +3342,9 @@
     },
     {
       "id": "asia-ciesnina-kana-ormuz",
-      "name": "Ormuz",
+      "name": "Cieśnina Ormuz",
+      "shortName": "Ormuz",
+      "objectType": "Cieśnina",
       "aliases": [],
       "region": "asia",
       "regionName": "Azja",
@@ -3130,7 +3362,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Stra%C3%9Fe_von_Hormuz.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Ormuz — zdjęcie lub mapa poglądowa",
+        "alt": "Cieśnina Ormuz — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Ormuz (cieśnina)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Ormuz_(cie%C5%9Bnina)"
       },
@@ -3138,7 +3370,9 @@
     },
     {
       "id": "asia-ciesnina-kana-bab-el-mandab",
-      "name": "Bab – el – Mandab",
+      "name": "Cieśnina Bab al-Mandab",
+      "shortName": "Bab – el – Mandab",
+      "objectType": "Cieśnina",
       "aliases": [
         "Bab el Mandab"
       ],
@@ -3158,7 +3392,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Bab_el_Mandeb_NASA_with_description.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Bab – el – Mandab — zdjęcie lub mapa poglądowa",
+        "alt": "Cieśnina Bab al-Mandab — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Bab al-Mandab",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Bab_al-Mandab"
       },
@@ -3166,7 +3400,9 @@
     },
     {
       "id": "africa-jezioro-czad",
-      "name": "Czad",
+      "name": "Jezioro Czad",
+      "shortName": "Czad",
+      "objectType": "Jezioro",
       "aliases": [],
       "region": "africa",
       "regionName": "Afryka",
@@ -3184,7 +3420,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/94/ShrinkingLakeChad-1973-1997-EO.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Czad — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Czad — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Czad (jezioro)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Czad_(jezioro)"
       },
@@ -3192,7 +3428,9 @@
     },
     {
       "id": "africa-jezioro-zbiornik-nasera",
-      "name": "Zbiornik Nasera",
+      "name": "Jezioro Nasera (Zbiornik Nasera)",
+      "shortName": "Zbiornik Nasera",
+      "objectType": "Zbiornik wodny",
       "aliases": [],
       "region": "africa",
       "regionName": "Afryka",
@@ -3210,7 +3448,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Lake_Nasser_Vista.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Zbiornik Nasera — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Nasera (Zbiornik Nasera) — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Jezioro Nasera",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Jezioro_Nasera"
       },
@@ -3218,7 +3456,9 @@
     },
     {
       "id": "africa-jezioro-wiktorii",
-      "name": "Wiktorii",
+      "name": "Jezioro Wiktorii",
+      "shortName": "Wiktorii",
+      "objectType": "Jezioro",
       "aliases": [],
       "region": "africa",
       "regionName": "Afryka",
@@ -3236,7 +3476,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Lake_victoria_NASA.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Wiktorii — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Wiktorii — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Jezioro Wiktorii",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Jezioro_Wiktorii"
       },
@@ -3244,7 +3484,9 @@
     },
     {
       "id": "africa-jezioro-tanganika",
-      "name": "Tanganika",
+      "name": "Jezioro Tanganika",
+      "shortName": "Tanganika",
+      "objectType": "Jezioro",
       "aliases": [],
       "region": "africa",
       "regionName": "Afryka",
@@ -3262,7 +3504,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Envisat_sees_Lake_Tanganyika_ESA219901.jpg/1280px-Envisat_sees_Lake_Tanganyika_ESA219901.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Tanganika — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Tanganika — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Tanganika (jezioro)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Tanganika_(jezioro)"
       },
@@ -3270,7 +3512,9 @@
     },
     {
       "id": "africa-jezioro-niasa-malawi",
-      "name": "Niasa (=Malawi)",
+      "name": "Jezioro Niasa (Malawi)",
+      "shortName": "Niasa (=Malawi)",
+      "objectType": "Jezioro",
       "aliases": [
         "Niasa",
         "Malawi"
@@ -3291,7 +3535,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Lake_Malawi_seen_from_orbit.jpg/1280px-Lake_Malawi_seen_from_orbit.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Niasa (=Malawi) — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Niasa (Malawi) — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Niasa (jezioro)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Niasa_(jezioro)"
       },
@@ -3299,7 +3543,9 @@
     },
     {
       "id": "africa-jezioro-wolta",
-      "name": "Wolta",
+      "name": "Jezioro Wolta",
+      "shortName": "Wolta",
+      "objectType": "Jezioro",
       "aliases": [],
       "region": "africa",
       "regionName": "Afryka",
@@ -3317,7 +3563,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Volta_lake.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Wolta — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Wolta — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Wolta (jezioro)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Wolta_(jezioro)"
       },
@@ -3325,7 +3571,9 @@
     },
     {
       "id": "africa-rzeka-nil",
-      "name": "Nil",
+      "name": "Rzeka Nil",
+      "shortName": "Nil",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "africa",
       "regionName": "Afryka",
@@ -3343,7 +3591,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/River-Nile-near-Aswan.jpg/1280px-River-Nile-near-Aswan.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Nil — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Nil — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Nil",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Nil"
       },
@@ -3351,7 +3599,9 @@
     },
     {
       "id": "africa-rzeka-senegal",
-      "name": "Senegal",
+      "name": "Rzeka Senegal",
+      "shortName": "Senegal",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "africa",
       "regionName": "Afryka",
@@ -3369,7 +3619,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Senegal_River_Saint_Louis.jpg/1280px-Senegal_River_Saint_Louis.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Senegal — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Senegal — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Senegal (rzeka)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Senegal_(rzeka)"
       },
@@ -3377,7 +3627,9 @@
     },
     {
       "id": "africa-rzeka-wolta",
-      "name": "Wolta",
+      "name": "Rzeka Wolta",
+      "shortName": "Wolta",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "africa",
       "regionName": "Afryka",
@@ -3395,7 +3647,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/71/VoltaRiverWithAdombeBridge183-1-.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Wolta — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Wolta — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Wolta (rzeka)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Wolta_(rzeka)"
       },
@@ -3403,7 +3655,9 @@
     },
     {
       "id": "africa-rzeka-niger",
-      "name": "Niger",
+      "name": "Rzeka Niger",
+      "shortName": "Niger",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "africa",
       "regionName": "Afryka",
@@ -3421,7 +3675,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Niger_river_BLANK.PNG?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Niger — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Niger — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Niger (rzeka)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Niger_(rzeka)"
       },
@@ -3429,7 +3683,9 @@
     },
     {
       "id": "africa-rzeka-kongo",
-      "name": "Kongo",
+      "name": "Rzeka Kongo",
+      "shortName": "Kongo",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "africa",
       "regionName": "Afryka",
@@ -3447,7 +3703,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Sunrise_near_Mossaka_%28Congo%29.JPG/1280px-Sunrise_near_Mossaka_%28Congo%29.JPG?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Kongo — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Kongo — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Kongo (rzeka)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Kongo_(rzeka)"
       },
@@ -3455,7 +3711,9 @@
     },
     {
       "id": "africa-rzeka-zambezi",
-      "name": "Zambezi",
+      "name": "Rzeka Zambezi",
+      "shortName": "Zambezi",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "africa",
       "regionName": "Afryka",
@@ -3473,7 +3731,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/The_Zambezi_River_flows.jpg/1280px-The_Zambezi_River_flows.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Zambezi — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Zambezi — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Zambezi",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Zambezi"
       },
@@ -3481,7 +3739,9 @@
     },
     {
       "id": "africa-zatoka-gwinejska",
-      "name": "Gwinejska",
+      "name": "Zatoka Gwinejska",
+      "shortName": "Gwinejska",
+      "objectType": "Zatoka",
       "aliases": [],
       "region": "africa",
       "regionName": "Afryka",
@@ -3499,7 +3759,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Gulf_of_Guinea_5.24136E_2.58756N.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Gwinejska — zdjęcie lub mapa poglądowa",
+        "alt": "Zatoka Gwinejska — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Zatoka Gwinejska",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Zatoka_Gwinejska"
       },
@@ -3507,7 +3767,9 @@
     },
     {
       "id": "africa-ciesnina-kana-mozambicki",
-      "name": "Mozambicki",
+      "name": "Kanał Mozambicki",
+      "shortName": "Mozambicki",
+      "objectType": "Kanał morski",
       "aliases": [],
       "region": "africa",
       "regionName": "Afryka",
@@ -3525,7 +3787,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Mozambique_Channel_location_map.svg/1280px-Mozambique_Channel_location_map.svg.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Mozambicki — zdjęcie lub mapa poglądowa",
+        "alt": "Kanał Mozambicki — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Kanał Mozambicki",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Kana%C5%82_Mozambicki"
       },
@@ -3533,7 +3795,9 @@
     },
     {
       "id": "africa-ciesnina-kana-sueski",
-      "name": "Sueski",
+      "name": "Kanał Sueski",
+      "shortName": "Sueski",
+      "objectType": "Kanał",
       "aliases": [],
       "region": "africa",
       "regionName": "Afryka",
@@ -3551,7 +3815,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/USS_America_%28CV-66%29_in_the_Suez_canal_1981.jpg/1280px-USS_America_%28CV-66%29_in_the_Suez_canal_1981.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Sueski — zdjęcie lub mapa poglądowa",
+        "alt": "Kanał Sueski — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Kanał Sueski",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Kana%C5%82_Sueski"
       },
@@ -3559,7 +3823,9 @@
     },
     {
       "id": "africa-wyspa-archipelag-madera",
-      "name": "Madera",
+      "name": "Archipelag Madery",
+      "shortName": "Madera",
+      "objectType": "Archipelag",
       "aliases": [],
       "region": "africa",
       "regionName": "Afryka",
@@ -3577,7 +3843,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Earth_from_Space-_Madeira_ESA499422.jpg/1280px-Earth_from_Space-_Madeira_ESA499422.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Madera — zdjęcie lub mapa poglądowa",
+        "alt": "Archipelag Madery — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Madera",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Madera"
       },
@@ -3585,7 +3851,9 @@
     },
     {
       "id": "africa-wyspa-archipelag-kanaryjskie",
-      "name": "Kanaryjskie",
+      "name": "Wyspy Kanaryjskie",
+      "shortName": "Kanaryjskie",
+      "objectType": "Archipelag",
       "aliases": [],
       "region": "africa",
       "regionName": "Afryka",
@@ -3603,7 +3871,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Map_of_the_Canary_Islands.svg/1280px-Map_of_the_Canary_Islands.svg.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Kanaryjskie — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspy Kanaryjskie — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Wyspy Kanaryjskie",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Wyspy_Kanaryjskie"
       },
@@ -3611,7 +3879,9 @@
     },
     {
       "id": "africa-wyspa-archipelag-mauritius",
-      "name": "Mauritius",
+      "name": "Wyspa Mauritius",
+      "shortName": "Mauritius",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "africa",
       "regionName": "Afryka",
@@ -3629,7 +3899,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Mauritius_-_Location_Map_%282013%29_-_MUS_-_UNOCHA.svg/1280px-Mauritius_-_Location_Map_%282013%29_-_MUS_-_UNOCHA.svg.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Mauritius — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Mauritius — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Mauritius",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Mauritius"
       },
@@ -3637,7 +3907,9 @@
     },
     {
       "id": "africa-wyspa-archipelag-madagaskar",
-      "name": "Madagaskar",
+      "name": "Wyspa Madagaskar",
+      "shortName": "Madagaskar",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "africa",
       "regionName": "Afryka",
@@ -3655,7 +3927,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Madagascar_-_Location_Map_%282013%29_-_MDG_-_UNOCHA.svg/1280px-Madagascar_-_Location_Map_%282013%29_-_MDG_-_UNOCHA.svg.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Madagaskar — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Madagaskar — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Madagaskar",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Madagaskar"
       },
@@ -3663,7 +3935,9 @@
     },
     {
       "id": "africa-wyspa-archipelag-sokotra",
-      "name": "Sokotra",
+      "name": "Wyspa Sokotra",
+      "shortName": "Sokotra",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "africa",
       "regionName": "Afryka",
@@ -3681,7 +3955,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Socotra_satview.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Sokotra — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Sokotra — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Sokotra (wyspa)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Sokotra_(wyspa)"
       },
@@ -3690,6 +3964,8 @@
     {
       "id": "africa-wyspa-archipelag-wyspy-zielonego-przyladka",
       "name": "Wyspy Zielonego Przylądka",
+      "shortName": "Wyspy Zielonego Przylądka",
+      "objectType": "Archipelag",
       "aliases": [
         "Cabo Verde"
       ],
@@ -3717,7 +3993,9 @@
     },
     {
       "id": "north-america-wyspa-archipelag-grenlandia",
-      "name": "Grenlandia",
+      "name": "Wyspa Grenlandia",
+      "shortName": "Grenlandia",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -3735,7 +4013,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Greenland_42.74746W_71.57394N.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Grenlandia — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Grenlandia — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Grenlandia",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Grenlandia"
       },
@@ -3743,7 +4021,9 @@
     },
     {
       "id": "north-america-wyspa-archipelag-aleuty",
-      "name": "Aleuty",
+      "name": "Wyspy Aleuckie (Aleuty)",
+      "shortName": "Aleuty",
+      "objectType": "Archipelag",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -3761,7 +4041,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Aleutian_Islands_amo_2014135_lrg.jpg/1280px-Aleutian_Islands_amo_2014135_lrg.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Aleuty — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspy Aleuckie (Aleuty) — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Aleuty",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Aleuty"
       },
@@ -3769,7 +4049,9 @@
     },
     {
       "id": "north-america-wyspa-archipelag-kuba",
-      "name": "Kuba",
+      "name": "Wyspa Kuba",
+      "shortName": "Kuba",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -3787,7 +4069,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Cuba_CIA_map_PL.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Kuba — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Kuba — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Kuba",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Kuba"
       },
@@ -3795,7 +4077,9 @@
     },
     {
       "id": "north-america-wyspa-archipelag-jamajka",
-      "name": "Jamajka",
+      "name": "Wyspa Jamajka",
+      "shortName": "Jamajka",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -3813,7 +4097,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Jm-map.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Jamajka — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Jamajka — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Jamajka",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Jamajka"
       },
@@ -3821,7 +4105,9 @@
     },
     {
       "id": "north-america-wyspa-archipelag-haiti",
-      "name": "Haiti",
+      "name": "Wyspa Haiti (Hispaniola)",
+      "shortName": "Haiti",
+      "objectType": "Wyspa",
       "aliases": [
         "Hispaniola"
       ],
@@ -3841,7 +4127,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Hispaniola_%28NASA_World_Wind%29.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Haiti — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Haiti (Hispaniola) — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Haiti (wyspa)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Haiti_(wyspa)"
       },
@@ -3849,7 +4135,9 @@
     },
     {
       "id": "north-america-wyspa-archipelag-portoryko",
-      "name": "Portoryko",
+      "name": "Wyspa Portoryko",
+      "shortName": "Portoryko",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -3867,7 +4155,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/LocationPuertoRico.svg/1280px-LocationPuertoRico.svg.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Portoryko — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Portoryko — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Portoryko",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Portoryko"
       },
@@ -3875,7 +4163,9 @@
     },
     {
       "id": "north-america-wyspa-archipelag-w-y-bahama",
-      "name": "W-y Bahama",
+      "name": "Wyspy Bahama",
+      "shortName": "W-y Bahama",
+      "objectType": "Archipelag",
       "aliases": [
         "Wyspy Bahama"
       ],
@@ -3895,7 +4185,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Bahamas_CIA_map_PL.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "W-y Bahama — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspy Bahama — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Bahamy",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Bahamy"
       },
@@ -3903,7 +4193,9 @@
     },
     {
       "id": "north-america-wyspa-archipelag-ma-e-antyle",
-      "name": "Małe Antyle",
+      "name": "Archipelag Małych Antyli",
+      "shortName": "Małe Antyle",
+      "objectType": "Archipelag",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -3921,7 +4213,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Caribbean_-_Lesser_Antilles.PNG?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Małe Antyle — zdjęcie lub mapa poglądowa",
+        "alt": "Archipelag Małych Antyli — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Małe Antyle",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Ma%C5%82e_Antyle"
       },
@@ -3929,7 +4221,9 @@
     },
     {
       "id": "north-america-wyspa-archipelag-bermudy",
-      "name": "Bermudy",
+      "name": "Archipelag Bermudów",
+      "shortName": "Bermudy",
+      "objectType": "Archipelag",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -3947,7 +4241,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/ISS017-E-10695_-_View_of_Bermuda.jpg/1280px-ISS017-E-10695_-_View_of_Bermuda.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Bermudy — zdjęcie lub mapa poglądowa",
+        "alt": "Archipelag Bermudów — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Bermudy",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Bermudy"
       },
@@ -3955,7 +4249,9 @@
     },
     {
       "id": "north-america-wyspa-archipelag-nowa-funlandia",
-      "name": "Nowa Funlandia",
+      "name": "Wyspa Nowa Fundlandia",
+      "shortName": "Nowa Funlandia",
+      "objectType": "Wyspa",
       "aliases": [
         "Nowa Funlandia"
       ],
@@ -3975,7 +4271,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Newfoundland_NASA.jpg/1280px-Newfoundland_NASA.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Nowa Funlandia — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Nowa Fundlandia — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Nowa Fundlandia",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Nowa_Fundlandia"
       },
@@ -3983,7 +4279,9 @@
     },
     {
       "id": "north-america-wyspa-archipelag-ziemia-baffina",
-      "name": "Ziemia Baffina",
+      "name": "Wyspa Ziemia Baffina",
+      "shortName": "Ziemia Baffina",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4001,7 +4299,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Baffin_MODIS_2016187.jpg/1280px-Baffin_MODIS_2016187.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Ziemia Baffina — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Ziemia Baffina — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Ziemia Baffina",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Ziemia_Baffina"
       },
@@ -4009,7 +4307,9 @@
     },
     {
       "id": "north-america-rzeka-jukon",
-      "name": "Jukon",
+      "name": "Rzeka Jukon",
+      "shortName": "Jukon",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4027,7 +4327,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Flying_over_the_meanders_of_the_mighty_Yukon_to_Arctic_Village.jpg/1280px-Flying_over_the_meanders_of_the_mighty_Yukon_to_Arctic_Village.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Jukon — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Jukon — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Jukon (rzeka)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Jukon_(rzeka)"
       },
@@ -4035,7 +4335,9 @@
     },
     {
       "id": "north-america-rzeka-kolorado",
-      "name": "Kolorado",
+      "name": "Rzeka Kolorado",
+      "shortName": "Kolorado",
+      "objectType": "Rzeka",
       "aliases": [
         "Colorado"
       ],
@@ -4055,7 +4357,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Colorado_River%2C_Grand_Canyon.jpg/1280px-Colorado_River%2C_Grand_Canyon.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Kolorado — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Kolorado — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Kolorado (rzeka)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Kolorado_(rzeka)"
       },
@@ -4063,7 +4365,9 @@
     },
     {
       "id": "north-america-rzeka-rio-grande",
-      "name": "Rio Grande",
+      "name": "Rzeka Rio Grande",
+      "shortName": "Rio Grande",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4081,7 +4385,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Rio_Grande_in_Big_Bend_NP.jpg/1280px-Rio_Grande_in_Big_Bend_NP.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Rio Grande — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Rio Grande — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Rio Grande (rzeka w Ameryce Północnej)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Rio_Grande_(rzeka_w_Ameryce_P%C3%B3%C5%82nocnej)"
       },
@@ -4089,7 +4393,9 @@
     },
     {
       "id": "north-america-rzeka-missisipi",
-      "name": "Missisipi",
+      "name": "Rzeka Missisipi",
+      "shortName": "Missisipi",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4107,7 +4413,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Efmo_View_from_Fire_Point.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Missisipi — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Missisipi — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Missisipi (rzeka)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Missisipi_(rzeka)"
       },
@@ -4115,7 +4421,9 @@
     },
     {
       "id": "north-america-rzeka-missouri",
-      "name": "Missouri",
+      "name": "Rzeka Missouri",
+      "shortName": "Missouri",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4133,7 +4441,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Missouririver1.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Missouri — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Missouri — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Missouri (rzeka)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Missouri_(rzeka)"
       },
@@ -4141,7 +4449,9 @@
     },
     {
       "id": "north-america-rzeka-sw-wawrzynca",
-      "name": "Św. Wawrzyńca",
+      "name": "Rzeka Świętego Wawrzyńca",
+      "shortName": "Św. Wawrzyńca",
+      "objectType": "Rzeka",
       "aliases": [
         "Świętego Wawrzyńca"
       ],
@@ -4161,7 +4471,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Grlakes_lawrence_map-fr.svg/1280px-Grlakes_lawrence_map-fr.svg.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Św. Wawrzyńca — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Świętego Wawrzyńca — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Rzeka Świętego Wawrzyńca",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Rzeka_%C5%9Awi%C4%99tego_Wawrzy%C5%84ca"
       },
@@ -4170,6 +4480,8 @@
     {
       "id": "north-america-jezioro-wielkie-jezioro-niedzwiedzie",
       "name": "Wielkie Jezioro Niedźwiedzie",
+      "shortName": "Wielkie Jezioro Niedźwiedzie",
+      "objectType": "Jezioro",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4196,6 +4508,8 @@
     {
       "id": "north-america-jezioro-wielkie-jezioro-niewolnicze",
       "name": "Wielkie Jezioro Niewolnicze",
+      "shortName": "Wielkie Jezioro Niewolnicze",
+      "objectType": "Jezioro",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4221,7 +4535,9 @@
     },
     {
       "id": "north-america-jezioro-gorne",
-      "name": "Górne",
+      "name": "Jezioro Górne",
+      "shortName": "Górne",
+      "objectType": "Jezioro",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4239,7 +4555,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/44/Lake_Superior_NASA.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Górne — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Górne — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Jezioro Górne",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Jezioro_G%C3%B3rne"
       },
@@ -4247,7 +4563,9 @@
     },
     {
       "id": "north-america-jezioro-huron",
-      "name": "Huron",
+      "name": "Jezioro Huron",
+      "shortName": "Huron",
+      "objectType": "Jezioro",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4265,7 +4583,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Lake_Huron_NASA_2011.jpg/1280px-Lake_Huron_NASA_2011.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Huron — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Huron — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Huron (jezioro)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Huron_(jezioro)"
       },
@@ -4273,7 +4591,9 @@
     },
     {
       "id": "north-america-jezioro-erie",
-      "name": "Erie",
+      "name": "Jezioro Erie",
+      "shortName": "Erie",
+      "objectType": "Jezioro",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4291,7 +4611,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Landsat_Lake_Erie.jpeg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Erie — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Erie — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Erie (jezioro)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Erie_(jezioro)"
       },
@@ -4299,7 +4619,9 @@
     },
     {
       "id": "north-america-jezioro-ontario",
-      "name": "Ontario",
+      "name": "Jezioro Ontario",
+      "shortName": "Ontario",
+      "objectType": "Jezioro",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4317,7 +4639,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/ISS-36_Lake_Ontario_%28horizontal%29.jpg/1280px-ISS-36_Lake_Ontario_%28horizontal%29.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Ontario — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Ontario — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Ontario (jezioro)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Ontario_(jezioro)"
       },
@@ -4325,7 +4647,9 @@
     },
     {
       "id": "north-america-jezioro-michigan",
-      "name": "Michigan",
+      "name": "Jezioro Michigan",
+      "shortName": "Michigan",
+      "objectType": "Jezioro",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4343,7 +4667,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Lake_Michigan_in_true_color.jpg/1280px-Lake_Michigan_in_true_color.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Michigan — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Michigan — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Michigan (jezioro)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Michigan_(jezioro)"
       },
@@ -4352,6 +4676,8 @@
     {
       "id": "north-america-jezioro-wielkie-jezioro-s-one",
       "name": "Wielkie Jezioro Słone",
+      "shortName": "Wielkie Jezioro Słone",
+      "objectType": "Jezioro",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4377,7 +4703,9 @@
     },
     {
       "id": "north-america-morze-karaibskie",
-      "name": "Karaibskie",
+      "name": "Morze Karaibskie",
+      "shortName": "Karaibskie",
+      "objectType": "Morze",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4395,7 +4723,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/CIA_map_Central_America_%26_Caribbean.png/1280px-CIA_map_Central_America_%26_Caribbean.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Karaibskie — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Karaibskie — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Karaibskie",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Karaibskie"
       },
@@ -4403,7 +4731,9 @@
     },
     {
       "id": "north-america-morze-beringa",
-      "name": "Beringa",
+      "name": "Morze Beringa",
+      "shortName": "Beringa",
+      "objectType": "Morze",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4421,7 +4751,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/BeringSea.jpg/1280px-BeringSea.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Beringa — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Beringa — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Beringa",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Beringa"
       },
@@ -4429,7 +4759,9 @@
     },
     {
       "id": "north-america-morze-sargassowe",
-      "name": "Sargassowe",
+      "name": "Morze Sargassowe",
+      "shortName": "Sargassowe",
+      "objectType": "Morze",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4447,7 +4779,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Lines_of_sargassum_Sargasso_Sea.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Sargassowe — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Sargassowe — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Sargassowe",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Sargassowe"
       },
@@ -4455,7 +4787,9 @@
     },
     {
       "id": "north-america-morze-baffina",
-      "name": "Baffina",
+      "name": "Morze Baffina",
+      "shortName": "Baffina",
+      "objectType": "Morze",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4473,7 +4807,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Iceberg_at_Baffin_Bay.jpg/1280px-Iceberg_at_Baffin_Bay.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Baffina — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Baffina — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Baffina",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Baffina"
       },
@@ -4481,7 +4815,9 @@
     },
     {
       "id": "north-america-morze-grenlandzkie",
-      "name": "Grenlandzkie",
+      "name": "Morze Grenlandzkie",
+      "shortName": "Grenlandzkie",
+      "objectType": "Morze",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4499,7 +4835,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Iceberg%2C_Greenland_Sea_%28js%291.jpg/1280px-Iceberg%2C_Greenland_Sea_%28js%291.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Grenlandzkie — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Grenlandzkie — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Grenlandzkie",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Grenlandzkie"
       },
@@ -4507,7 +4843,9 @@
     },
     {
       "id": "north-america-ciesnina-kana-beringa",
-      "name": "Beringa",
+      "name": "Cieśnina Beringa",
+      "shortName": "Beringa",
+      "objectType": "Cieśnina",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4525,7 +4863,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Bering_Strait.jpeg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Beringa — zdjęcie lub mapa poglądowa",
+        "alt": "Cieśnina Beringa — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Cieśnina Beringa",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Cie%C5%9Bnina_Beringa"
       },
@@ -4533,7 +4871,9 @@
     },
     {
       "id": "north-america-ciesnina-kana-dunska",
-      "name": "Duńska",
+      "name": "Cieśnina Duńska",
+      "shortName": "Duńska",
+      "objectType": "Cieśnina",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4551,7 +4891,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Iceberg_mist.jpg/1280px-Iceberg_mist.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Duńska — zdjęcie lub mapa poglądowa",
+        "alt": "Cieśnina Duńska — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Cieśnina Duńska",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Cie%C5%9Bnina_Du%C5%84ska"
       },
@@ -4560,6 +4900,8 @@
     {
       "id": "north-america-ciesnina-kana-kana-panamski",
       "name": "Kanał Panamski",
+      "shortName": "Kanał Panamski",
+      "objectType": "Kanał",
       "aliases": [],
       "region": "north-america",
       "regionName": "Ameryka Północna",
@@ -4585,7 +4927,9 @@
     },
     {
       "id": "south-america-jezioro-maracaibo",
-      "name": "Maracaibo",
+      "name": "Jezioro Maracaibo",
+      "shortName": "Maracaibo",
+      "objectType": "Jezioro",
       "aliases": [],
       "region": "south-america",
       "regionName": "Ameryka Południowa",
@@ -4603,7 +4947,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Maracaibo_MODIS_2004jun26.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Maracaibo — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Maracaibo — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Maracaibo (jezioro)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Maracaibo_(jezioro)"
       },
@@ -4611,7 +4955,9 @@
     },
     {
       "id": "south-america-jezioro-titicaca",
-      "name": "Titicaca",
+      "name": "Jezioro Titicaca",
+      "shortName": "Titicaca",
+      "objectType": "Jezioro",
       "aliases": [],
       "region": "south-america",
       "regionName": "Ameryka Południowa",
@@ -4629,7 +4975,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/69.26598W_15.87988S.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Titicaca — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Titicaca — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Titicaca",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Titicaca"
       },
@@ -4637,7 +4983,9 @@
     },
     {
       "id": "south-america-rzeka-orinoko",
-      "name": "Orinoko",
+      "name": "Rzeka Orinoko",
+      "shortName": "Orinoko",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "south-america",
       "regionName": "Ameryka Południowa",
@@ -4655,7 +5003,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Orinico_ciudad_bilivar_venezuela.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Orinoko — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Orinoko — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Orinoko",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Orinoko"
       },
@@ -4663,7 +5011,9 @@
     },
     {
       "id": "south-america-rzeka-amazonka",
-      "name": "Amazonka",
+      "name": "Rzeka Amazonka",
+      "shortName": "Amazonka",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "south-america",
       "regionName": "Ameryka Południowa",
@@ -4681,7 +5031,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Mouths_of_amazon_geocover_1990.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Amazonka — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Amazonka — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Amazonka",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Amazonka"
       },
@@ -4689,7 +5039,9 @@
     },
     {
       "id": "south-america-rzeka-sao-francisco",
-      "name": "São Francisco",
+      "name": "Rzeka São Francisco",
+      "shortName": "São Francisco",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "south-america",
       "regionName": "Ameryka Południowa",
@@ -4707,7 +5059,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/0/04/RioSaoFrancisco.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "São Francisco — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka São Francisco — zdjęcie lub mapa poglądowa",
         "sourceTitle": "São Francisco",
         "sourceUrl": "https://pl.wikipedia.org/wiki/S%C3%A3o_Francisco"
       },
@@ -4715,7 +5067,9 @@
     },
     {
       "id": "south-america-rzeka-parana",
-      "name": "Parana",
+      "name": "Rzeka Parana",
+      "shortName": "Parana",
+      "objectType": "Rzeka",
       "aliases": [
         "Paraná"
       ],
@@ -4735,7 +5089,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/River_Plate.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Parana — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Parana — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Parana (rzeka)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Parana_(rzeka)"
       },
@@ -4743,7 +5097,9 @@
     },
     {
       "id": "south-america-zatoka-la-plata",
-      "name": "La Plata",
+      "name": "Estuarium La Platy (Río de la Plata)",
+      "shortName": "La Plata",
+      "objectType": "Estuarium",
       "aliases": [
         "Río de la Plata"
       ],
@@ -4763,7 +5119,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Rio_de_la_Plata_BA_2.JPG/1280px-Rio_de_la_Plata_BA_2.JPG?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "La Plata — zdjęcie lub mapa poglądowa",
+        "alt": "Estuarium La Platy (Río de la Plata) — zdjęcie lub mapa poglądowa",
         "sourceTitle": "La Plata (estuarium)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/La_Plata_(estuarium)"
       },
@@ -4771,7 +5127,9 @@
     },
     {
       "id": "south-america-wyspa-archipelag-falklandy-malwiny",
-      "name": "Falklandy (Malwiny)",
+      "name": "Archipelag Falklandów (Malwiny)",
+      "shortName": "Falklandy (Malwiny)",
+      "objectType": "Archipelag",
       "aliases": [
         "Malwiny"
       ],
@@ -4791,7 +5149,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Falkland-Islands-Terra-2011-01-23-250m.jpg/1280px-Falkland-Islands-Terra-2011-01-23-250m.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Falklandy (Malwiny) — zdjęcie lub mapa poglądowa",
+        "alt": "Archipelag Falklandów (Malwiny) — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Falklandy",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Falklandy"
       },
@@ -4799,7 +5157,9 @@
     },
     {
       "id": "south-america-wyspa-archipelag-ziemia-ognista",
-      "name": "Ziemia Ognista",
+      "name": "Archipelag Ziemi Ognistej",
+      "shortName": "Ziemia Ognista",
+      "objectType": "Archipelag",
       "aliases": [],
       "region": "south-america",
       "regionName": "Ameryka Południowa",
@@ -4817,7 +5177,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/TierraDelFuego_Satellite1.jpg/1280px-TierraDelFuego_Satellite1.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Ziemia Ognista — zdjęcie lub mapa poglądowa",
+        "alt": "Archipelag Ziemi Ognistej — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Ziemia Ognista",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Ziemia_Ognista"
       },
@@ -4825,7 +5185,9 @@
     },
     {
       "id": "south-america-wyspa-archipelag-galapagos",
-      "name": "Galapagos",
+      "name": "Archipelag Galapagos",
+      "shortName": "Galapagos",
+      "objectType": "Archipelag",
       "aliases": [],
       "region": "south-america",
       "regionName": "Ameryka Południowa",
@@ -4843,7 +5205,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Galapagos-satellite-2002.jpg/1280px-Galapagos-satellite-2002.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Galapagos — zdjęcie lub mapa poglądowa",
+        "alt": "Archipelag Galapagos — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Galapagos",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Galapagos"
       },
@@ -4851,7 +5213,9 @@
     },
     {
       "id": "south-america-ciesnina-kana-magellana",
-      "name": "Magellana",
+      "name": "Cieśnina Magellana",
+      "shortName": "Magellana",
+      "objectType": "Cieśnina",
       "aliases": [],
       "region": "south-america",
       "regionName": "Ameryka Południowa",
@@ -4869,7 +5233,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/StraitOfMagellan.jpg/1280px-StraitOfMagellan.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Magellana — zdjęcie lub mapa poglądowa",
+        "alt": "Cieśnina Magellana — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Cieśnina Magellana",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Cie%C5%9Bnina_Magellana"
       },
@@ -4877,7 +5241,9 @@
     },
     {
       "id": "oceania-wyspa-archipelag-tasmania",
-      "name": "Tasmania",
+      "name": "Wyspa Tasmania",
+      "shortName": "Tasmania",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "oceania",
       "regionName": "Australia i Oceania",
@@ -4895,7 +5261,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Cradle_Mountain_Behind_Dove_Lake.jpg/1280px-Cradle_Mountain_Behind_Dove_Lake.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Tasmania — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Tasmania — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Tasmania",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Tasmania"
       },
@@ -4903,7 +5269,9 @@
     },
     {
       "id": "oceania-wyspa-archipelag-nowa-zelandia",
-      "name": "Nowa Zelandia",
+      "name": "Wyspy Nowej Zelandii",
+      "shortName": "Nowa Zelandia",
+      "objectType": "Archipelag",
       "aliases": [],
       "region": "oceania",
       "regionName": "Australia i Oceania",
@@ -4921,7 +5289,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/New_Zealand_on_the_globe_%28Oceania_centered%29.svg/1280px-New_Zealand_on_the_globe_%28Oceania_centered%29.svg.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Nowa Zelandia — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspy Nowej Zelandii — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Nowa Zelandia",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Nowa_Zelandia"
       },
@@ -4929,7 +5297,9 @@
     },
     {
       "id": "oceania-wyspa-archipelag-nowa-gwinea",
-      "name": "Nowa Gwinea",
+      "name": "Wyspa Nowa Gwinea",
+      "shortName": "Nowa Gwinea",
+      "objectType": "Wyspa",
       "aliases": [],
       "region": "oceania",
       "regionName": "Australia i Oceania",
@@ -4947,7 +5317,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/93/PapuaNG.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Nowa Gwinea — zdjęcie lub mapa poglądowa",
+        "alt": "Wyspa Nowa Gwinea — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Nowa Gwinea",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Nowa_Gwinea"
       },
@@ -4955,7 +5325,9 @@
     },
     {
       "id": "oceania-wyspa-archipelag-nowa-kaledonia",
-      "name": "Nowa Kaledonia",
+      "name": "Archipelag Nowej Kaledonii",
+      "shortName": "Nowa Kaledonia",
+      "objectType": "Archipelag",
       "aliases": [],
       "region": "oceania",
       "regionName": "Australia i Oceania",
@@ -4973,7 +5345,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/New_Caledonia_after_the_passage_of_tropical_cyclone_Niran.jpg/1280px-New_Caledonia_after_the_passage_of_tropical_cyclone_Niran.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Nowa Kaledonia — zdjęcie lub mapa poglądowa",
+        "alt": "Archipelag Nowej Kaledonii — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Nowa Kaledonia",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Nowa_Kaledonia"
       },
@@ -4981,7 +5353,9 @@
     },
     {
       "id": "oceania-wyspa-archipelag-polinezja",
-      "name": "Polinezja",
+      "name": "Polinezja (region wyspiarski)",
+      "shortName": "Polinezja",
+      "objectType": "Region wyspiarski",
       "aliases": [],
       "region": "oceania",
       "regionName": "Australia i Oceania",
@@ -4999,7 +5373,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Polynesia-triangle.png/1280px-Polynesia-triangle.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Polinezja — zdjęcie lub mapa poglądowa",
+        "alt": "Polinezja (region wyspiarski) — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Polinezja",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Polinezja"
       },
@@ -5007,7 +5381,9 @@
     },
     {
       "id": "oceania-wyspa-archipelag-hawaje",
-      "name": "Hawaje",
+      "name": "Archipelag Hawajów",
+      "shortName": "Hawaje",
+      "objectType": "Archipelag",
       "aliases": [],
       "region": "oceania",
       "regionName": "Australia i Oceania",
@@ -5025,7 +5401,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/NaPali_overlook_Kalalau_Valley.jpg/1280px-NaPali_overlook_Kalalau_Valley.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Hawaje — zdjęcie lub mapa poglądowa",
+        "alt": "Archipelag Hawajów — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Hawaje",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Hawaje"
       },
@@ -5033,7 +5409,9 @@
     },
     {
       "id": "oceania-rzeka-murray",
-      "name": "Murray",
+      "name": "Rzeka Murray",
+      "shortName": "Murray",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "oceania",
       "regionName": "Australia i Oceania",
@@ -5051,7 +5429,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Murray_howlong.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Murray — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Murray — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Murray (rzeka)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Murray_(rzeka)"
       },
@@ -5059,7 +5437,9 @@
     },
     {
       "id": "oceania-rzeka-darling",
-      "name": "Darling",
+      "name": "Rzeka Darling",
+      "shortName": "Darling",
+      "objectType": "Rzeka",
       "aliases": [],
       "region": "oceania",
       "regionName": "Australia i Oceania",
@@ -5077,7 +5457,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Darling-near-Bourke.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Darling — zdjęcie lub mapa poglądowa",
+        "alt": "Rzeka Darling — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Darling (rzeka)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Darling_(rzeka)"
       },
@@ -5085,7 +5465,9 @@
     },
     {
       "id": "oceania-jezioro-eyre",
-      "name": "Eyre",
+      "name": "Jezioro Eyre",
+      "shortName": "Eyre",
+      "objectType": "Jezioro",
       "aliases": [
         "Kati Thanda"
       ],
@@ -5105,7 +5487,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/NEO_lake_eyre_big.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Eyre — zdjęcie lub mapa poglądowa",
+        "alt": "Jezioro Eyre — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Eyre (jezioro)",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Eyre_(jezioro)"
       },
@@ -5114,6 +5496,8 @@
     {
       "id": "oceania-kraina-wielka-rafa-koralowa",
       "name": "Wielka Rafa Koralowa",
+      "shortName": "Wielka Rafa Koralowa",
+      "objectType": "Rafa koralowa",
       "aliases": [],
       "region": "oceania",
       "regionName": "Australia i Oceania",
@@ -5139,7 +5523,9 @@
     },
     {
       "id": "oceania-morze-timor",
-      "name": "Timor",
+      "name": "Morze Timor",
+      "shortName": "Timor",
+      "objectType": "Morze",
       "aliases": [],
       "region": "oceania",
       "regionName": "Australia i Oceania",
@@ -5157,7 +5543,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Tasiibun.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Timor — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Timor — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Timor",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Timor"
       },
@@ -5165,7 +5551,9 @@
     },
     {
       "id": "oceania-morze-arafura",
-      "name": "Arafura",
+      "name": "Morze Arafura",
+      "shortName": "Arafura",
+      "objectType": "Morze",
       "aliases": [],
       "region": "oceania",
       "regionName": "Australia i Oceania",
@@ -5183,7 +5571,7 @@
       },
       "image": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Locatie_Arafurazee.PNG?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
-        "alt": "Arafura — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Arafura — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Arafura",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Arafura"
       },
@@ -5191,7 +5579,9 @@
     },
     {
       "id": "oceania-morze-koralowe",
-      "name": "Koralowe",
+      "name": "Morze Koralowe",
+      "shortName": "Koralowe",
+      "objectType": "Morze",
       "aliases": [],
       "region": "oceania",
       "regionName": "Australia i Oceania",
@@ -5209,7 +5599,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Coral_Sea_map.png/1280px-Coral_Sea_map.png?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Koralowe — zdjęcie lub mapa poglądowa",
+        "alt": "Morze Koralowe — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Morze Koralowe",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Morze_Koralowe"
       },
@@ -5217,7 +5607,9 @@
     },
     {
       "id": "oceania-zatoka-karpentaria",
-      "name": "Karpentaria",
+      "name": "Zatoka Karpentaria",
+      "shortName": "Karpentaria",
+      "objectType": "Zatoka",
       "aliases": [],
       "region": "oceania",
       "regionName": "Australia i Oceania",
@@ -5235,7 +5627,7 @@
       },
       "image": {
         "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Gulf_of_Carpentaria-MODIS_250m.jpg/1280px-Gulf_of_Carpentaria-MODIS_250m.jpg?utm_source=pl.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "alt": "Karpentaria — zdjęcie lub mapa poglądowa",
+        "alt": "Zatoka Karpentaria — zdjęcie lub mapa poglądowa",
         "sourceTitle": "Zatoka Karpentaria",
         "sourceUrl": "https://pl.wikipedia.org/wiki/Zatoka_Karpentaria"
       },
@@ -5244,6 +5636,8 @@
     {
       "id": "oceania-zatoka-wielka-zatoka-australijska",
       "name": "Wielka Zatoka Australijska",
+      "shortName": "Wielka Zatoka Australijska",
+      "objectType": "Zatoka",
       "aliases": [],
       "region": "oceania",
       "regionName": "Australia i Oceania",

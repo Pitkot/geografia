@@ -2,6 +2,7 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = fileURLToPath(new URL('..', import.meta.url));
+const LOCATION_NAMES = JSON.parse(await readFile(`${ROOT}/scripts/location-names.json`, 'utf8'));
 
 const REGION_META = {
   europe: { name: 'Europa', color: '#3867ff' },
@@ -666,9 +667,16 @@ async function main() {
 
   const locations = entries.map((entry, index) => {
     const page = pages.get(entry.wikiTitle);
+    const id = `${entry.region}-${slugify(entry.category)}-${slugify(entry.name)}`;
+    const naming = LOCATION_NAMES[id];
+    if (!naming?.name || !naming?.objectType) {
+      throw new Error(`Brak pełnej nazwy lub dokładnego typu obiektu: ${id}`);
+    }
     return {
-      id: `${entry.region}-${slugify(entry.category)}-${slugify(entry.name)}`,
-      name: entry.name,
+      id,
+      name: naming.name,
+      shortName: entry.name,
+      objectType: naming.objectType,
       aliases: entry.aliases,
       region: entry.region,
       regionName: REGION_META[entry.region].name,
@@ -682,7 +690,7 @@ async function main() {
       },
       image: {
         url: page?.thumbnail?.source || '',
-        alt: `${entry.name} — zdjęcie lub mapa poglądowa`,
+        alt: `${naming.name} — zdjęcie lub mapa poglądowa`,
         sourceTitle: page?.title || entry.wikiTitle,
         sourceUrl: page?.fullurl || `https://pl.wikipedia.org/wiki/${encodeURIComponent(entry.wikiTitle.replaceAll(' ', '_'))}`
       },
@@ -694,8 +702,14 @@ async function main() {
     throw new Error(`Za mało ciekawostek dla ${MISSING_FACTS.length} miejsc:\n- ${MISSING_FACTS.join('\n- ')}`);
   }
 
+  const generatedIds = new Set(locations.map((location) => location.id));
+  const unusedNames = Object.keys(LOCATION_NAMES).filter((id) => !generatedIds.has(id));
+  if (unusedNames.length) {
+    throw new Error(`Lokalny wykaz zawiera nieużywane identyfikatory:\n- ${unusedNames.join('\n- ')}`);
+  }
+
   const output = {
-    schemaVersion: 1,
+    schemaVersion: 2,
     generatedAt: '2026-09-27',
     factPolicy: 'Dokładnie trzy krótkie ciekawostki na miejsce; aplikacja nie wyszukuje ich w sieci.',
     sourcesNote: 'Ciekawostki zredagowano na podstawie artykułów polskiej Wikipedii; odnośnik źródłowy znajduje się przy każdym rekordzie.',

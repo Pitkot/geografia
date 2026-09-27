@@ -54,6 +54,7 @@ Testy sprawdzają między innymi:
 ## Dane
 
 - `src/data/locations.json` — gotowy lokalny katalog wykorzystywany przez aplikację,
+- `scripts/location-names.json` — pełne polskie nazwy i dokładne typy wszystkich obiektów,
 - `scripts/manual-facts.json` — ręcznie zredagowane fakty dla krótszych lub niejednoznacznych haseł,
 - `scripts/wiki-pages-cache.json` — lokalny cache materiałów źródłowych i metadanych obrazów,
 - `scripts/build-data.mjs` — deterministyczny generator końcowego JSON-a.
@@ -66,10 +67,13 @@ npm run build:data
 
 Aplikacja nie wyszukuje ciekawostek podczas działania. Zdjęcia korzystają z wcześniej zapisanych adresów Wikimedia; gdy sieć lub obraz jest niedostępny, panel pokazuje kolorowy fallback.
 
+Nazwy widoczne na mapie, w kartach miejsc, wyszukiwarce i sprawdzianie są pełnymi nazwami z typem obiektu, np. „Morze Azowskie”, „Wyspa Bornholm” i „Archipelag Malajski”.
+
 ## Sterowanie
 
 - kliknięcie znacznika — karta miejsca i trzy ciekawostki,
-- przeciąganie lub kółko myszy — przesuwanie i zoom mapy,
+- przeciąganie myszą lub jednym palcem — przesuwanie mapy,
+- kółko myszy albo gest dwóch palców — powiększanie i pomniejszanie mapy,
 - strzałki lewo/prawo — poprzednie lub następne miejsce,
 - cyfry 1–4 — odpowiedź w sprawdzianie,
 - filtry regionów i kategorii — zawężenie mapy oraz puli pytań.

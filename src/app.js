@@ -225,7 +225,7 @@ function selectLocation(id, options = {}) {
   elements.placeCard.style.setProperty('--place-color', meta.color);
   elements.photoFallback.style.setProperty('--fallback-color', meta.color);
   elements.placeNumber.textContent = String(location.order).padStart(3, '0');
-  elements.placeCategory.textContent = location.category;
+  elements.placeCategory.textContent = location.objectType;
   elements.placeRegion.textContent = location.regionName;
   elements.placeName.textContent = location.name;
   elements.placeCoordinates.textContent = formatCoordinates(location.latitude, location.longitude);
@@ -237,7 +237,7 @@ function selectLocation(id, options = {}) {
     return item;
   }));
   elements.sourceLink.href = location.source.url;
-  elements.sourceLink.title = `Źródło: ${location.source.title}`;
+  elements.sourceLink.title = `Pokaż ${location.name} w Wikipedii`;
 
   elements.placeImage.hidden = true;
   elements.photoFallback.hidden = false;
@@ -279,7 +279,7 @@ function renderSearchResults() {
     return;
   }
   const results = locations.filter((location) => {
-    const haystack = normalize([location.name, ...location.aliases, location.category, location.regionName].join(' '));
+    const haystack = normalize([location.name, location.shortName, ...location.aliases, location.objectType, location.category, location.regionName].join(' '));
     return haystack.includes(query);
   }).slice(0, 8);
 
@@ -294,7 +294,7 @@ function renderSearchResults() {
     button.type = 'button';
     button.className = 'search-result';
     button.style.setProperty('--result-color', data.categoryMeta[location.category].color);
-    button.innerHTML = `<span aria-hidden="true"></span><div><strong>${location.name}</strong><small>${location.category} · ${location.regionName}</small></div>`;
+    button.innerHTML = `<span aria-hidden="true"></span><div><strong>${location.name}</strong><small>${location.objectType} · ${location.regionName}</small></div>`;
     button.addEventListener('click', () => {
       state.region = location.region;
       state.category = 'all';
@@ -363,8 +363,8 @@ function startQuestion() {
   state.previousQuestionId = state.question.target.id;
   state.answered = false;
   elements.quizKicker.textContent = state.reviewingIncorrect
-    ? `POPRAWA · ${state.question.target.category} · ${state.question.target.regionName}`
-    : `${state.question.target.category} · ${state.question.target.regionName}`;
+    ? `POPRAWA · ${state.question.target.objectType} · ${state.question.target.regionName}`
+    : `${state.question.target.objectType} · ${state.question.target.regionName}`;
   elements.quizFeedback.hidden = true;
   elements.nextQuestion.hidden = true;
   elements.nextQuestion.innerHTML = 'Następne pytanie <span aria-hidden="true">→</span>';
@@ -468,7 +468,7 @@ function renderCorrections() {
     const meta = document.createElement('small');
     const name = document.createElement('strong');
     const selected = document.createElement('span');
-    meta.textContent = `${entry.target.category} · ${entry.target.regionName}`;
+    meta.textContent = `${entry.target.objectType} · ${entry.target.regionName}`;
     name.textContent = entry.target.name;
     selected.textContent = `Wybrano: ${entry.selected?.name || 'inna odpowiedź'}`;
     description.append(meta, name, selected);

@@ -1,0 +1,790 @@
+{
+  "europe-po-wysep-skandynawski": {
+    "objectType": "Półwysep",
+    "name": "Półwysep Skandynawski"
+  },
+  "europe-po-wysep-jutlandzki": {
+    "objectType": "Półwysep",
+    "name": "Półwysep Jutlandzki"
+  },
+  "europe-po-wysep-bretonski": {
+    "objectType": "Półwysep",
+    "name": "Półwysep Bretoński"
+  },
+  "europe-po-wysep-iberyjski-pirenejski": {
+    "objectType": "Półwysep",
+    "name": "Półwysep Iberyjski (Pirenejski)"
+  },
+  "europe-po-wysep-apeninski": {
+    "objectType": "Półwysep",
+    "name": "Półwysep Apeniński"
+  },
+  "europe-po-wysep-ba-kanski": {
+    "objectType": "Półwysep",
+    "name": "Półwysep Bałkański"
+  },
+  "europe-po-wysep-peloponez": {
+    "objectType": "Półwysep",
+    "name": "Półwysep Peloponeski (Peloponez)"
+  },
+  "europe-po-wysep-krym": {
+    "objectType": "Półwysep",
+    "name": "Półwysep Krymski (Krym)"
+  },
+  "europe-morze-bia-e": {
+    "objectType": "Morze",
+    "name": "Morze Białe"
+  },
+  "europe-morze-norweskie": {
+    "objectType": "Morze",
+    "name": "Morze Norweskie"
+  },
+  "europe-morze-po-nocne": {
+    "objectType": "Morze",
+    "name": "Morze Północne"
+  },
+  "europe-morze-ba-tyckie": {
+    "objectType": "Morze",
+    "name": "Morze Bałtyckie"
+  },
+  "europe-morze-srodziemne": {
+    "objectType": "Morze",
+    "name": "Morze Śródziemne"
+  },
+  "europe-morze-adriatyckie": {
+    "objectType": "Morze",
+    "name": "Morze Adriatyckie"
+  },
+  "europe-morze-egejskie": {
+    "objectType": "Morze",
+    "name": "Morze Egejskie"
+  },
+  "europe-morze-czarne": {
+    "objectType": "Morze",
+    "name": "Morze Czarne"
+  },
+  "europe-morze-azowskie": {
+    "objectType": "Morze",
+    "name": "Morze Azowskie"
+  },
+  "europe-morze-kaspijskie": {
+    "objectType": "Morze",
+    "name": "Morze Kaspijskie"
+  },
+  "europe-zatoka-botnicka": {
+    "objectType": "Zatoka",
+    "name": "Zatoka Botnicka"
+  },
+  "europe-zatoka-ryska": {
+    "objectType": "Zatoka",
+    "name": "Zatoka Ryska"
+  },
+  "europe-zatoka-finska": {
+    "objectType": "Zatoka",
+    "name": "Zatoka Fińska"
+  },
+  "europe-zatoka-biskajska": {
+    "objectType": "Zatoka",
+    "name": "Zatoka Biskajska"
+  },
+  "europe-ciesnina-kana-kattegat": {
+    "objectType": "Cieśnina",
+    "name": "Cieśnina Kattegat"
+  },
+  "europe-ciesnina-kana-skagerrak": {
+    "objectType": "Cieśnina",
+    "name": "Cieśnina Skagerrak"
+  },
+  "europe-ciesnina-kana-kaletanska": {
+    "objectType": "Cieśnina",
+    "name": "Cieśnina Kaletańska"
+  },
+  "europe-ciesnina-kana-gibraltarska": {
+    "objectType": "Cieśnina",
+    "name": "Cieśnina Gibraltarska"
+  },
+  "europe-ciesnina-kana-sycylijska": {
+    "objectType": "Cieśnina",
+    "name": "Cieśnina Sycylijska"
+  },
+  "europe-ciesnina-kana-dardanele": {
+    "objectType": "Cieśnina",
+    "name": "Cieśnina Dardanele"
+  },
+  "europe-ciesnina-kana-bosfor": {
+    "objectType": "Cieśnina",
+    "name": "Cieśnina Bosfor"
+  },
+  "europe-ciesnina-kana-mesynska": {
+    "objectType": "Cieśnina",
+    "name": "Cieśnina Mesyńska"
+  },
+  "europe-ciesnina-kana-kana-la-manche": {
+    "objectType": "Kanał morski",
+    "name": "Kanał La Manche"
+  },
+  "europe-ciesnina-kana-kana-po-nocny": {
+    "objectType": "Cieśnina",
+    "name": "Kanał Północny"
+  },
+  "europe-wyspa-archipelag-nowa-ziemia": {
+    "objectType": "Archipelag",
+    "name": "Archipelag Nowa Ziemia"
+  },
+  "europe-wyspa-archipelag-svalbard": {
+    "objectType": "Archipelag",
+    "name": "Archipelag Svalbard"
+  },
+  "europe-wyspa-archipelag-islandia": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Islandia"
+  },
+  "europe-wyspa-archipelag-owcze": {
+    "objectType": "Archipelag",
+    "name": "Wyspy Owcze"
+  },
+  "europe-wyspa-archipelag-szetlandy": {
+    "objectType": "Archipelag",
+    "name": "Wyspy Szetlandzkie (Szetlandy)"
+  },
+  "europe-wyspa-archipelag-wielka-brytania": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Wielka Brytania"
+  },
+  "europe-wyspa-archipelag-irlandia": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Irlandia"
+  },
+  "europe-wyspa-archipelag-bornholm": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Bornholm"
+  },
+  "europe-wyspa-archipelag-gotlandia": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Gotlandia"
+  },
+  "europe-wyspa-archipelag-baleary-majorka-ibiza-minorka": {
+    "objectType": "Archipelag",
+    "name": "Archipelag Balearów (Majorka, Ibiza, Minorka)"
+  },
+  "europe-wyspa-archipelag-korsyka": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Korsyka"
+  },
+  "europe-wyspa-archipelag-sardynia": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Sardynia"
+  },
+  "europe-wyspa-archipelag-sycylia": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Sycylia"
+  },
+  "europe-wyspa-archipelag-kreta": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Kreta"
+  },
+  "europe-wyspa-archipelag-cypr": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Cypr"
+  },
+  "europe-rzeka-niemen": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Niemen"
+  },
+  "europe-rzeka-wo-ga": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Wołga"
+  },
+  "europe-rzeka-dniepr": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Dniepr"
+  },
+  "europe-rzeka-dniestr": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Dniestr"
+  },
+  "europe-rzeka-dunaj": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Dunaj"
+  },
+  "europe-rzeka-pad": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Pad"
+  },
+  "europe-rzeka-ebro": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Ebro"
+  },
+  "europe-rzeka-tag": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Tag"
+  },
+  "europe-rzeka-loara": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Loara"
+  },
+  "europe-rzeka-sekwana": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Sekwana"
+  },
+  "europe-rzeka-ren": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Ren"
+  },
+  "europe-rzeka-aba": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Łaba"
+  },
+  "europe-rzeka-odra": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Odra"
+  },
+  "europe-rzeka-wis-a": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Wisła"
+  },
+  "europe-rzeka-rodan": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Rodan"
+  },
+  "europe-rzeka-tamiza": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Tamiza"
+  },
+  "europe-jezioro-wener": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Wener"
+  },
+  "europe-jezioro-wetter": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Wetter"
+  },
+  "europe-jezioro-adoga": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Ładoga"
+  },
+  "europe-jezioro-onega": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Onega"
+  },
+  "europe-jezioro-balaton": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Balaton"
+  },
+  "asia-jezioro-bajka": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Bajkał"
+  },
+  "asia-jezioro-ba-chasz": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Bałchasz"
+  },
+  "asia-jezioro-aralskie": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Aralskie"
+  },
+  "asia-jezioro-kaspijskie": {
+    "objectType": "Jezioro słone",
+    "name": "Morze Kaspijskie"
+  },
+  "asia-rzeka-ob-z-irtyszem": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Ob z Irtyszem"
+  },
+  "asia-rzeka-jenisej": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Jenisej"
+  },
+  "asia-rzeka-lena": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Lena"
+  },
+  "asia-rzeka-ko-yma": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Kołyma"
+  },
+  "asia-rzeka-huangho-rzeka-zo-ta": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Huang He (Rzeka Żółta)"
+  },
+  "asia-rzeka-jangcy": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Jangcy"
+  },
+  "asia-rzeka-mekong": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Mekong"
+  },
+  "asia-rzeka-ganges": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Ganges"
+  },
+  "asia-rzeka-brahmaputra": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Brahmaputra"
+  },
+  "asia-rzeka-indus": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Indus"
+  },
+  "asia-rzeka-tygrys": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Tygrys"
+  },
+  "asia-rzeka-eufrat": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Eufrat"
+  },
+  "asia-rzeka-amu-daria": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Amu-daria"
+  },
+  "asia-rzeka-syr-daria": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Syr-daria"
+  },
+  "asia-wyspa-archipelag-kuryle": {
+    "objectType": "Archipelag",
+    "name": "Wyspy Kurylskie (Kuryle)"
+  },
+  "asia-wyspa-archipelag-sachalin": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Sachalin"
+  },
+  "asia-wyspa-archipelag-hokkaido": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Hokkaido"
+  },
+  "asia-wyspa-archipelag-honsiu": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Honsiu"
+  },
+  "asia-wyspa-archipelag-tajwan": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Tajwan"
+  },
+  "asia-wyspa-archipelag-filipiny": {
+    "objectType": "Archipelag",
+    "name": "Archipelag Filipiński (Filipiny)"
+  },
+  "asia-wyspa-archipelag-sumatra": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Sumatra"
+  },
+  "asia-wyspa-archipelag-jawa": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Jawa"
+  },
+  "asia-wyspa-archipelag-borneo": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Borneo"
+  },
+  "asia-wyspa-archipelag-archipelag-malajski": {
+    "objectType": "Archipelag",
+    "name": "Archipelag Malajski"
+  },
+  "asia-wyspa-archipelag-cejlon": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Cejlon (Sri Lanka)"
+  },
+  "asia-wyspa-archipelag-malediwy": {
+    "objectType": "Archipelag",
+    "name": "Archipelag Malediwów"
+  },
+  "asia-morze-wschodniosyberyjskie": {
+    "objectType": "Morze",
+    "name": "Morze Wschodniosyberyjskie"
+  },
+  "asia-morze-beringa": {
+    "objectType": "Morze",
+    "name": "Morze Beringa"
+  },
+  "asia-morze-ochockie": {
+    "objectType": "Morze",
+    "name": "Morze Ochockie"
+  },
+  "asia-morze-japonskie": {
+    "objectType": "Morze",
+    "name": "Morze Japońskie"
+  },
+  "asia-morze-zo-te": {
+    "objectType": "Morze",
+    "name": "Morze Żółte"
+  },
+  "asia-morze-filipinskie": {
+    "objectType": "Morze",
+    "name": "Morze Filipińskie"
+  },
+  "asia-morze-po-udniowochinskie": {
+    "objectType": "Morze",
+    "name": "Morze Południowochińskie"
+  },
+  "asia-morze-jawajskie": {
+    "objectType": "Morze",
+    "name": "Morze Jawajskie"
+  },
+  "asia-morze-arabskie": {
+    "objectType": "Morze",
+    "name": "Morze Arabskie"
+  },
+  "asia-morze-czerwone": {
+    "objectType": "Morze",
+    "name": "Morze Czerwone"
+  },
+  "asia-zatoka-bengalska": {
+    "objectType": "Zatoka",
+    "name": "Zatoka Bengalska"
+  },
+  "asia-zatoka-omanska": {
+    "objectType": "Zatoka",
+    "name": "Zatoka Omańska"
+  },
+  "asia-zatoka-perska": {
+    "objectType": "Zatoka",
+    "name": "Zatoka Perska"
+  },
+  "asia-zatoka-adenska": {
+    "objectType": "Zatoka",
+    "name": "Zatoka Adeńska"
+  },
+  "asia-ciesnina-kana-beringa": {
+    "objectType": "Cieśnina",
+    "name": "Cieśnina Beringa"
+  },
+  "asia-ciesnina-kana-makasarska": {
+    "objectType": "Cieśnina",
+    "name": "Cieśnina Makasarska"
+  },
+  "asia-ciesnina-kana-malakka": {
+    "objectType": "Cieśnina",
+    "name": "Cieśnina Malakka"
+  },
+  "asia-ciesnina-kana-ormuz": {
+    "objectType": "Cieśnina",
+    "name": "Cieśnina Ormuz"
+  },
+  "asia-ciesnina-kana-bab-el-mandab": {
+    "objectType": "Cieśnina",
+    "name": "Cieśnina Bab al-Mandab"
+  },
+  "africa-jezioro-czad": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Czad"
+  },
+  "africa-jezioro-zbiornik-nasera": {
+    "objectType": "Zbiornik wodny",
+    "name": "Jezioro Nasera (Zbiornik Nasera)"
+  },
+  "africa-jezioro-wiktorii": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Wiktorii"
+  },
+  "africa-jezioro-tanganika": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Tanganika"
+  },
+  "africa-jezioro-niasa-malawi": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Niasa (Malawi)"
+  },
+  "africa-jezioro-wolta": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Wolta"
+  },
+  "africa-rzeka-nil": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Nil"
+  },
+  "africa-rzeka-senegal": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Senegal"
+  },
+  "africa-rzeka-wolta": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Wolta"
+  },
+  "africa-rzeka-niger": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Niger"
+  },
+  "africa-rzeka-kongo": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Kongo"
+  },
+  "africa-rzeka-zambezi": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Zambezi"
+  },
+  "africa-zatoka-gwinejska": {
+    "objectType": "Zatoka",
+    "name": "Zatoka Gwinejska"
+  },
+  "africa-ciesnina-kana-mozambicki": {
+    "objectType": "Kanał morski",
+    "name": "Kanał Mozambicki"
+  },
+  "africa-ciesnina-kana-sueski": {
+    "objectType": "Kanał",
+    "name": "Kanał Sueski"
+  },
+  "africa-wyspa-archipelag-madera": {
+    "objectType": "Archipelag",
+    "name": "Archipelag Madery"
+  },
+  "africa-wyspa-archipelag-kanaryjskie": {
+    "objectType": "Archipelag",
+    "name": "Wyspy Kanaryjskie"
+  },
+  "africa-wyspa-archipelag-mauritius": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Mauritius"
+  },
+  "africa-wyspa-archipelag-madagaskar": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Madagaskar"
+  },
+  "africa-wyspa-archipelag-sokotra": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Sokotra"
+  },
+  "africa-wyspa-archipelag-wyspy-zielonego-przyladka": {
+    "objectType": "Archipelag",
+    "name": "Wyspy Zielonego Przylądka"
+  },
+  "north-america-wyspa-archipelag-grenlandia": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Grenlandia"
+  },
+  "north-america-wyspa-archipelag-aleuty": {
+    "objectType": "Archipelag",
+    "name": "Wyspy Aleuckie (Aleuty)"
+  },
+  "north-america-wyspa-archipelag-kuba": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Kuba"
+  },
+  "north-america-wyspa-archipelag-jamajka": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Jamajka"
+  },
+  "north-america-wyspa-archipelag-haiti": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Haiti (Hispaniola)"
+  },
+  "north-america-wyspa-archipelag-portoryko": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Portoryko"
+  },
+  "north-america-wyspa-archipelag-w-y-bahama": {
+    "objectType": "Archipelag",
+    "name": "Wyspy Bahama"
+  },
+  "north-america-wyspa-archipelag-ma-e-antyle": {
+    "objectType": "Archipelag",
+    "name": "Archipelag Małych Antyli"
+  },
+  "north-america-wyspa-archipelag-bermudy": {
+    "objectType": "Archipelag",
+    "name": "Archipelag Bermudów"
+  },
+  "north-america-wyspa-archipelag-nowa-funlandia": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Nowa Fundlandia"
+  },
+  "north-america-wyspa-archipelag-ziemia-baffina": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Ziemia Baffina"
+  },
+  "north-america-rzeka-jukon": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Jukon"
+  },
+  "north-america-rzeka-kolorado": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Kolorado"
+  },
+  "north-america-rzeka-rio-grande": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Rio Grande"
+  },
+  "north-america-rzeka-missisipi": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Missisipi"
+  },
+  "north-america-rzeka-missouri": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Missouri"
+  },
+  "north-america-rzeka-sw-wawrzynca": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Świętego Wawrzyńca"
+  },
+  "north-america-jezioro-wielkie-jezioro-niedzwiedzie": {
+    "objectType": "Jezioro",
+    "name": "Wielkie Jezioro Niedźwiedzie"
+  },
+  "north-america-jezioro-wielkie-jezioro-niewolnicze": {
+    "objectType": "Jezioro",
+    "name": "Wielkie Jezioro Niewolnicze"
+  },
+  "north-america-jezioro-gorne": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Górne"
+  },
+  "north-america-jezioro-huron": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Huron"
+  },
+  "north-america-jezioro-erie": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Erie"
+  },
+  "north-america-jezioro-ontario": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Ontario"
+  },
+  "north-america-jezioro-michigan": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Michigan"
+  },
+  "north-america-jezioro-wielkie-jezioro-s-one": {
+    "objectType": "Jezioro",
+    "name": "Wielkie Jezioro Słone"
+  },
+  "north-america-morze-karaibskie": {
+    "objectType": "Morze",
+    "name": "Morze Karaibskie"
+  },
+  "north-america-morze-beringa": {
+    "objectType": "Morze",
+    "name": "Morze Beringa"
+  },
+  "north-america-morze-sargassowe": {
+    "objectType": "Morze",
+    "name": "Morze Sargassowe"
+  },
+  "north-america-morze-baffina": {
+    "objectType": "Morze",
+    "name": "Morze Baffina"
+  },
+  "north-america-morze-grenlandzkie": {
+    "objectType": "Morze",
+    "name": "Morze Grenlandzkie"
+  },
+  "north-america-ciesnina-kana-beringa": {
+    "objectType": "Cieśnina",
+    "name": "Cieśnina Beringa"
+  },
+  "north-america-ciesnina-kana-dunska": {
+    "objectType": "Cieśnina",
+    "name": "Cieśnina Duńska"
+  },
+  "north-america-ciesnina-kana-kana-panamski": {
+    "objectType": "Kanał",
+    "name": "Kanał Panamski"
+  },
+  "south-america-jezioro-maracaibo": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Maracaibo"
+  },
+  "south-america-jezioro-titicaca": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Titicaca"
+  },
+  "south-america-rzeka-orinoko": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Orinoko"
+  },
+  "south-america-rzeka-amazonka": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Amazonka"
+  },
+  "south-america-rzeka-sao-francisco": {
+    "objectType": "Rzeka",
+    "name": "Rzeka São Francisco"
+  },
+  "south-america-rzeka-parana": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Parana"
+  },
+  "south-america-zatoka-la-plata": {
+    "objectType": "Estuarium",
+    "name": "Estuarium La Platy (Río de la Plata)"
+  },
+  "south-america-wyspa-archipelag-falklandy-malwiny": {
+    "objectType": "Archipelag",
+    "name": "Archipelag Falklandów (Malwiny)"
+  },
+  "south-america-wyspa-archipelag-ziemia-ognista": {
+    "objectType": "Archipelag",
+    "name": "Archipelag Ziemi Ognistej"
+  },
+  "south-america-wyspa-archipelag-galapagos": {
+    "objectType": "Archipelag",
+    "name": "Archipelag Galapagos"
+  },
+  "south-america-ciesnina-kana-magellana": {
+    "objectType": "Cieśnina",
+    "name": "Cieśnina Magellana"
+  },
+  "oceania-wyspa-archipelag-tasmania": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Tasmania"
+  },
+  "oceania-wyspa-archipelag-nowa-zelandia": {
+    "objectType": "Archipelag",
+    "name": "Wyspy Nowej Zelandii"
+  },
+  "oceania-wyspa-archipelag-nowa-gwinea": {
+    "objectType": "Wyspa",
+    "name": "Wyspa Nowa Gwinea"
+  },
+  "oceania-wyspa-archipelag-nowa-kaledonia": {
+    "objectType": "Archipelag",
+    "name": "Archipelag Nowej Kaledonii"
+  },
+  "oceania-wyspa-archipelag-polinezja": {
+    "objectType": "Region wyspiarski",
+    "name": "Polinezja (region wyspiarski)"
+  },
+  "oceania-wyspa-archipelag-hawaje": {
+    "objectType": "Archipelag",
+    "name": "Archipelag Hawajów"
+  },
+  "oceania-rzeka-murray": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Murray"
+  },
+  "oceania-rzeka-darling": {
+    "objectType": "Rzeka",
+    "name": "Rzeka Darling"
+  },
+  "oceania-jezioro-eyre": {
+    "objectType": "Jezioro",
+    "name": "Jezioro Eyre"
+  },
+  "oceania-kraina-wielka-rafa-koralowa": {
+    "objectType": "Rafa koralowa",
+    "name": "Wielka Rafa Koralowa"
+  },
+  "oceania-morze-timor": {
+    "objectType": "Morze",
+    "name": "Morze Timor"
+  },
+  "oceania-morze-arafura": {
+    "objectType": "Morze",
+    "name": "Morze Arafura"
+  },
+  "oceania-morze-koralowe": {
+    "objectType": "Morze",
+    "name": "Morze Koralowe"
+  },
+  "oceania-zatoka-karpentaria": {
+    "objectType": "Zatoka",
+    "name": "Zatoka Karpentaria"
+  },
+  "oceania-zatoka-wielka-zatoka-australijska": {
+    "objectType": "Zatoka",
+    "name": "Wielka Zatoka Australijska"
+  }
+}
