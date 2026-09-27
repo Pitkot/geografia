@@ -5,8 +5,13 @@ const EMPTY_STATE = {
   attempts: 0,
   streak: 0,
   bestStreak: 0,
-  mastered: []
+  mastered: [],
+  incorrect: []
 };
+
+function emptyProgress() {
+  return { ...EMPTY_STATE, mastered: [], incorrect: [] };
+}
 
 export function loadProgress() {
   try {
@@ -14,10 +19,13 @@ export function loadProgress() {
     return {
       ...EMPTY_STATE,
       ...saved,
-      mastered: Array.isArray(saved?.mastered) ? saved.mastered : []
+      mastered: Array.isArray(saved?.mastered) ? saved.mastered : [],
+      incorrect: Array.isArray(saved?.incorrect)
+        ? saved.incorrect.filter((entry) => entry?.targetId && entry?.selectedId)
+        : []
     };
   } catch {
-    return { ...EMPTY_STATE };
+    return emptyProgress();
   }
 }
 
@@ -35,5 +43,5 @@ export function clearProgress() {
   } catch {
     // Brak dostępu do localStorage nie może blokować resetu w bieżącej sesji.
   }
-  return { ...EMPTY_STATE, mastered: [] };
+  return emptyProgress();
 }

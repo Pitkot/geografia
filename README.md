@@ -48,7 +48,8 @@ Testy sprawdzają między innymi:
 - komplet źródeł i metadanych zdjęć,
 - długość i format wszystkich ciekawostek,
 - projekcję współrzędnych na raster mapy,
-- cztery unikalne odpowiedzi quizowe.
+- cztery unikalne odpowiedzi w sprawdzianie,
+- kolejkę błędnych odpowiedzi i możliwość ich poprawiania do 100% skuteczności.
 
 ## Dane
 
@@ -70,7 +71,9 @@ Aplikacja nie wyszukuje ciekawostek podczas działania. Zdjęcia korzystają z w
 - kliknięcie znacznika — karta miejsca i trzy ciekawostki,
 - przeciąganie lub kółko myszy — przesuwanie i zoom mapy,
 - strzałki lewo/prawo — poprzednie lub następne miejsce,
-- cyfry 1–4 — odpowiedź w quizie,
+- cyfry 1–4 — odpowiedź w sprawdzianie,
 - filtry regionów i kategorii — zawężenie mapy oraz puli pytań.
 
-Postęp quizu jest przechowywany w `localStorage` przeglądarki.
+Nieprawidłowe odpowiedzi trafiają do sekcji „Popraw odpowiedzi”. Po poprawieniu wszystkich pomyłek aktualna skuteczność wraca do 100%.
+
+Postęp sprawdzianu jest przechowywany w `localStorage` przeglądarki.

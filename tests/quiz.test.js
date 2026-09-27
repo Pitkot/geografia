@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { accuracy, createQuestion } from '../src/ui/quiz.js';
+import { accuracy, createQuestion, recordAnswer } from '../src/ui/quiz.js';
 
 const pool = [
   { id: 'a', name: 'A', category: 'Rzeka', region: 'europe' },
@@ -38,11 +38,72 @@ test('poprzedni cel nie jest od razu losowany ponownie', () => {
   }
 });
 
-test('quiz odrzuca pulę mniejszą niż cztery miejsca', () => {
+test('pytanie poprawkowe zawsze używa wskazanego celu', () => {
+  for (let index = 0; index < 20; index += 1) {
+    const question = createQuestion(pool, '', 'c');
+    assert.equal(question.target.id, 'c');
+    assert.equal(question.options.length, 4);
+    assert.ok(question.options.some((option) => option.id === 'c'));
+  }
+});
+
+test('nieistniejący cel poprawki jest odrzucany', () => {
+  assert.equal(createQuestion(pool, '', 'nie-ma'), null);
+});
+
+test('sprawdzian odrzuca pulę mniejszą niż cztery miejsca', () => {
   assert.equal(createQuestion(pool.slice(0, 3)), null);
 });
 
-test('skuteczność jest zaokrąglana do pełnego procentu', () => {
-  assert.equal(accuracy({ correct: 0, attempts: 0 }), 0);
-  assert.equal(accuracy({ correct: 2, attempts: 3 }), 67);
+test('skuteczność opisuje aktualny stan wiedzy', () => {
+  assert.equal(accuracy({ mastered: [], incorrect: [] }), 0);
+  assert.equal(accuracy({ mastered: ['a', 'b'], incorrect: [{ targetId: 'c', selectedId: 'd' }] }), 67);
+  assert.equal(accuracy({ mastered: ['a', 'b', 'c'], incorrect: [] }), 100);
+});
+
+test('błędna odpowiedź trafia do kolejki i usuwa wcześniejsze opanowanie', () => {
+  const progress = recordAnswer({
+    correct: 1,
+    attempts: 1,
+    streak: 1,
+    bestStreak: 1,
+    mastered: ['a'],
+    incorrect: []
+  }, 'a', 'b');
+
+  assert.equal(progress.attempts, 2);
+  assert.equal(progress.correct, 1);
+  assert.equal(progress.streak, 0);
+  assert.deepEqual(progress.mastered, []);
+  assert.deepEqual(progress.incorrect, [{ targetId: 'a', selectedId: 'b' }]);
+});
+
+test('kolejna pomyłka aktualizuje wpis zamiast go duplikować', () => {
+  const progress = recordAnswer({
+    correct: 0,
+    attempts: 1,
+    streak: 0,
+    bestStreak: 0,
+    mastered: [],
+    incorrect: [{ targetId: 'a', selectedId: 'b' }]
+  }, 'a', 'c');
+
+  assert.deepEqual(progress.incorrect, [{ targetId: 'a', selectedId: 'c' }]);
+});
+
+test('poprawienie błędu usuwa go z kolejki i przywraca 100%', () => {
+  const progress = recordAnswer({
+    correct: 2,
+    attempts: 3,
+    streak: 0,
+    bestStreak: 2,
+    mastered: ['a', 'b'],
+    incorrect: [{ targetId: 'c', selectedId: 'd' }]
+  }, 'c', 'c');
+
+  assert.deepEqual(new Set(progress.mastered), new Set(['a', 'b', 'c']));
+  assert.deepEqual(progress.incorrect, []);
+  assert.equal(progress.correct, 3);
+  assert.equal(progress.attempts, 4);
+  assert.equal(accuracy(progress), 100);
 });

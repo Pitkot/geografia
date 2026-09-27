@@ -1,7 +1,7 @@
 import { formatCoordinates } from './data/projection.js';
 import { loadProgress, saveProgress, clearProgress } from './services/storage.js';
 import { createMapController } from './ui/map.js';
-import { accuracy, createQuestion } from './ui/quiz.js';
+import { accuracy, createQuestion, recordAnswer } from './ui/quiz.js';
 
 const REGION_VIEWS = {
   world: { id: 'world', name: 'Cały świat', color: '#5d4bdb', latitude: 8, longitude: 8, zoom: 1 },
@@ -70,6 +70,11 @@ const elements = {
   quizCorrect: document.querySelector('#quizCorrect'),
   quizAttempts: document.querySelector('#quizAttempts'),
   quizAccuracy: document.querySelector('#quizAccuracy'),
+  correctionsPanel: document.querySelector('#correctionsPanel'),
+  incorrectCount: document.querySelector('#incorrectCount'),
+  correctionsEmpty: document.querySelector('#correctionsEmpty'),
+  incorrectAnswers: document.querySelector('#incorrectAnswers'),
+  reviewIncorrect: document.querySelector('#reviewIncorrect'),
   masteredCount: document.querySelector('#masteredCount'),
   progressPercent: document.querySelector('#progressPercent'),
   progressBar: document.querySelector('#progressBar'),
@@ -92,7 +97,9 @@ const state = {
   selectedId: '',
   question: null,
   answered: false,
-  previousQuestionId: ''
+  previousQuestionId: '',
+  reviewingIncorrect: false,
+  reviewQueue: []
 };
 
 function normalize(value) {
@@ -304,6 +311,10 @@ function renderSearchResults() {
 }
 
 function setMode(mode) {
+  if (mode !== 'quiz') {
+    state.reviewingIncorrect = false;
+    state.reviewQueue = [];
+  }
   state.mode = mode;
   document.querySelectorAll('.mode-button').forEach((button) => {
     const active = button.dataset.mode === mode;
@@ -325,24 +336,38 @@ function setMode(mode) {
 }
 
 function startQuestion() {
-  const pool = currentPool();
+  const correctionTargetId = state.reviewingIncorrect ? state.reviewQueue[0] : '';
+  if (state.reviewingIncorrect && !correctionTargetId) {
+    state.reviewingIncorrect = false;
+  }
+
+  const pool = state.reviewingIncorrect ? locations : currentPool();
   if (pool.length < 4) {
     elements.quizOptions.replaceChildren();
     elements.quizKicker.textContent = 'Za mało miejsc w tym filtrze';
     elements.quizFeedback.hidden = false;
-    elements.quizFeedback.innerHTML = '<strong>Wybierz szerszy zakres</strong>Quiz potrzebuje co najmniej czterech punktów.';
+    elements.quizFeedback.innerHTML = '<strong>Wybierz szerszy zakres</strong>Sprawdzian potrzebuje co najmniej czterech punktów.';
     elements.nextQuestion.hidden = true;
     state.question = null;
     mapController.updateMarkers(visibleIdSet(), '', '');
     return;
   }
 
-  state.question = createQuestion(pool, state.previousQuestionId);
+  state.question = createQuestion(pool, state.previousQuestionId, correctionTargetId);
+  if (!state.question && state.reviewingIncorrect) {
+    state.reviewQueue.shift();
+    startQuestion();
+    return;
+  }
+  if (!state.question) return;
   state.previousQuestionId = state.question.target.id;
   state.answered = false;
-  elements.quizKicker.textContent = `${state.question.target.category} · ${state.question.target.regionName}`;
+  elements.quizKicker.textContent = state.reviewingIncorrect
+    ? `POPRAWA · ${state.question.target.category} · ${state.question.target.regionName}`
+    : `${state.question.target.category} · ${state.question.target.regionName}`;
   elements.quizFeedback.hidden = true;
   elements.nextQuestion.hidden = true;
+  elements.nextQuestion.innerHTML = 'Następne pytanie <span aria-hidden="true">→</span>';
   elements.quizOptions.replaceChildren(...state.question.options.map((option, index) => {
     const button = document.createElement('button');
     button.type = 'button';
@@ -353,23 +378,23 @@ function startQuestion() {
     button.addEventListener('click', () => answerQuestion(option.id));
     return button;
   }));
-  mapController.updateMarkers(visibleIdSet(), '', state.question.target.id);
+  const questionVisibility = state.reviewingIncorrect
+    ? new Set(locations.map((location) => location.id))
+    : visibleIdSet();
+  mapController.updateMarkers(questionVisibility, '', state.question.target.id);
   mapController.focusLocation(state.question.target, 3.6);
 }
 
 function answerQuestion(selectedId) {
   if (!state.question || state.answered) return;
   state.answered = true;
-  const correct = selectedId === state.question.target.id;
-  progress.attempts += 1;
+  const targetId = state.question.target.id;
+  const correct = selectedId === targetId;
+  progress = recordAnswer(progress, targetId, selectedId);
 
-  if (correct) {
-    progress.correct += 1;
-    progress.streak += 1;
-    progress.bestStreak = Math.max(progress.bestStreak, progress.streak);
-    if (!progress.mastered.includes(state.question.target.id)) progress.mastered.push(state.question.target.id);
-  } else {
-    progress.streak = 0;
+  if (state.reviewingIncorrect) {
+    state.reviewQueue = state.reviewQueue.filter((id) => id !== targetId);
+    if (!correct) state.reviewQueue.push(targetId);
   }
   saveProgress(progress);
 
@@ -380,23 +405,96 @@ function answerQuestion(selectedId) {
   });
 
   elements.quizFeedback.style.setProperty('--feedback-color', correct ? '#078e68' : '#db3556');
-  elements.quizFeedback.innerHTML = `<strong>${correct ? 'Brawo! Dobra odpowiedź.' : `To ${state.question.target.name}.`}</strong>${state.question.target.facts[Math.floor(Math.random() * 3)]}`;
+  const correctionSeriesFinished = state.reviewingIncorrect && correct && state.reviewQueue.length === 0;
+  const allCorrected = correctionSeriesFinished && progress.incorrect.length === 0;
+  const remainingCorrections = progress.incorrect.length;
+  elements.quizFeedback.innerHTML = allCorrected
+    ? '<strong>Wszystkie odpowiedzi poprawione!</strong>Twoja aktualna skuteczność wynosi 100%.'
+    : correctionSeriesFinished
+      ? `<strong>Odpowiedź poprawiona!</strong>Pozostało do poprawy: ${remainingCorrections}.`
+      : `<strong>${correct ? 'Brawo! Dobra odpowiedź.' : `To ${state.question.target.name}.`}</strong>${state.question.target.facts[Math.floor(Math.random() * 3)]}`;
   elements.quizFeedback.hidden = false;
   elements.nextQuestion.hidden = false;
+  elements.nextQuestion.innerHTML = correctionSeriesFinished
+    ? 'Wróć do sprawdzianu <span aria-hidden="true">→</span>'
+    : state.reviewingIncorrect
+      ? 'Kolejna poprawa <span aria-hidden="true">→</span>'
+      : 'Następne pytanie <span aria-hidden="true">→</span>';
   updateStats();
+}
+
+function startCorrections(targetId = '') {
+  const availableIds = progress.incorrect
+    .map((entry) => entry.targetId)
+    .filter((id) => locationById.has(id));
+  if (!availableIds.length) {
+    showToast('Nie masz odpowiedzi do poprawy. Świetna robota!');
+    return;
+  }
+
+  state.reviewingIncorrect = true;
+  state.reviewQueue = targetId
+    ? [targetId]
+    : [...availableIds];
+  startQuestion();
+  if (window.innerWidth <= 720) elements.quizCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function advanceQuestion() {
+  if (state.reviewingIncorrect && !state.reviewQueue.length) {
+    state.reviewingIncorrect = false;
+  }
+  startQuestion();
+}
+
+function renderCorrections() {
+  const entries = progress.incorrect
+    .map((entry) => ({
+      ...entry,
+      target: locationById.get(entry.targetId),
+      selected: locationById.get(entry.selectedId)
+    }))
+    .filter((entry) => entry.target);
+
+  elements.incorrectCount.textContent = String(entries.length);
+  elements.correctionsEmpty.hidden = entries.length > 0;
+  elements.incorrectAnswers.hidden = entries.length === 0;
+  elements.reviewIncorrect.hidden = entries.length === 0;
+  elements.incorrectAnswers.replaceChildren(...entries.map((entry) => {
+    const item = document.createElement('article');
+    item.className = 'correction-item';
+
+    const description = document.createElement('div');
+    const meta = document.createElement('small');
+    const name = document.createElement('strong');
+    const selected = document.createElement('span');
+    meta.textContent = `${entry.target.category} · ${entry.target.regionName}`;
+    name.textContent = entry.target.name;
+    selected.textContent = `Wybrano: ${entry.selected?.name || 'inna odpowiedź'}`;
+    description.append(meta, name, selected);
+
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.textContent = 'Popraw';
+    button.setAttribute('aria-label', `Popraw odpowiedź: ${entry.target.name}`);
+    button.addEventListener('click', () => startCorrections(entry.targetId));
+    item.append(description, button);
+    return item;
+  }));
 }
 
 function updateStats() {
   const percent = locations.length ? Math.round(progress.mastered.length / locations.length * 100) : 0;
-  elements.headerScore.textContent = String(progress.correct);
+  elements.headerScore.textContent = String(progress.mastered.length);
   elements.streakValue.textContent = String(progress.streak);
-  elements.quizCorrect.textContent = String(progress.correct);
-  elements.quizAttempts.textContent = String(progress.attempts);
+  elements.quizCorrect.textContent = String(progress.mastered.length);
+  elements.quizAttempts.textContent = String(progress.incorrect.length);
   elements.quizAccuracy.textContent = `${accuracy(progress)}%`;
   elements.masteredCount.textContent = String(progress.mastered.length);
   elements.progressPercent.textContent = `${percent}%`;
   elements.progressBar.style.width = `${percent}%`;
   elements.progressTrack.setAttribute('aria-valuenow', String(percent));
+  renderCorrections();
 }
 
 function closeMobileFilters() {
@@ -417,7 +515,8 @@ function bindEvents() {
   });
   elements.previousPlace.addEventListener('click', () => navigatePlace(-1));
   elements.nextPlace.addEventListener('click', () => navigatePlace(1));
-  elements.nextQuestion.addEventListener('click', startQuestion);
+  elements.nextQuestion.addEventListener('click', advanceQuestion);
+  elements.reviewIncorrect.addEventListener('click', () => startCorrections());
   elements.zoomIn.addEventListener('click', () => mapController.zoomBy(0.45));
   elements.zoomOut.addEventListener('click', () => mapController.zoomBy(-0.45));
   elements.resetMap.addEventListener('click', () => mapController.focusRegion(REGION_VIEWS[state.region]));
@@ -425,6 +524,8 @@ function bindEvents() {
   elements.closeFilters.addEventListener('click', closeMobileFilters);
   elements.resetProgress.addEventListener('click', () => {
     progress = clearProgress();
+    state.reviewingIncorrect = false;
+    state.reviewQueue = [];
     updateStats();
     showToast('Postęp został wyzerowany. Możesz zacząć od nowa!');
   });
@@ -446,6 +547,16 @@ async function initialize() {
     data = await response.json();
     locations = data.locations;
     locationById = new Map(locations.map((location) => [location.id, location]));
+    const knownIds = new Set(locationById.keys());
+    progress.mastered = [...new Set(progress.mastered.filter((id) => knownIds.has(id)))];
+    progress.incorrect = progress.incorrect
+      .filter((entry, index, items) => knownIds.has(entry.targetId)
+        && knownIds.has(entry.selectedId)
+        && entry.targetId !== entry.selectedId
+        && items.findLastIndex((candidate) => candidate.targetId === entry.targetId) === index);
+    const incorrectIds = new Set(progress.incorrect.map((entry) => entry.targetId));
+    progress.mastered = progress.mastered.filter((id) => !incorrectIds.has(id));
+    saveProgress(progress);
 
     for (const [category, meta] of Object.entries(data.categoryMeta)) {
       meta.shape = CATEGORY_SHAPES[category] || 'circle';

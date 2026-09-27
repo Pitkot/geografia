@@ -20,16 +20,18 @@
 
       <div class="mode-switch" role="group" aria-label="Tryb aplikacji">
         <button class="mode-button is-active" type="button" data-mode="learn" aria-pressed="true">
-          <span aria-hidden="true">◉</span> Nauka
+          <span class="mode-button__icon" aria-hidden="true">◎</span>
+          <span><small>TRYB</small><strong>Nauka</strong></span>
         </button>
         <button class="mode-button" type="button" data-mode="quiz" aria-pressed="false">
-          <span aria-hidden="true">⚡</span> Quiz
+          <span class="mode-button__icon" aria-hidden="true">✓</span>
+          <span><small>TRYB</small><strong>Sprawdzian</strong></span>
         </button>
       </div>
 
       <div class="score-pill" aria-live="polite">
         <span class="score-pill__icon" aria-hidden="true">★</span>
-        <span><strong id="headerScore">0</strong><small>punktów</small></span>
+        <span><strong id="headerScore">0</strong><small>opanowane</small></span>
       </div>
     </header>
 
@@ -58,19 +60,6 @@
           <div class="search-results" id="searchResults" hidden></div>
         </section>
 
-        <section class="progress-card" aria-labelledby="progressTitle">
-          <div class="progress-card__top">
-            <div>
-              <p class="eyebrow">TWÓJ POSTĘP</p>
-              <h3 id="progressTitle"><span id="masteredCount">0</span> opanowanych</h3>
-            </div>
-            <strong id="progressPercent">0%</strong>
-          </div>
-          <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
-            <span id="progressBar"></span>
-          </div>
-          <button class="text-button" type="button" id="resetProgress">Wyzeruj postęp</button>
-        </section>
       </aside>
 
       <section class="map-column" aria-label="Interaktywna mapa">
@@ -135,7 +124,7 @@
               <ol class="facts-list" id="factsList"></ol>
             </div>
 
-            <a class="source-link" id="sourceLink" target="_blank" rel="noopener noreferrer">Sprawdź źródło <span aria-hidden="true">↗</span></a>
+            <a class="source-link" id="sourceLink" target="_blank" rel="noopener noreferrer"><span class="source-link__mark" aria-hidden="true">W</span> Pokaż w Wikipedii <span aria-hidden="true">↗</span></a>
             <div class="place-navigation">
               <button type="button" id="previousPlace" aria-label="Poprzednie miejsce">←</button>
               <span><strong id="placePosition">1</strong> / <span id="placeTotal">197</span></span>
@@ -146,7 +135,7 @@
 
         <section class="quiz-card" id="quizCard" hidden>
           <div class="quiz-card__header">
-            <p class="eyebrow">SZYBKI QUIZ</p>
+            <p class="eyebrow">SPRAWDZIAN</p>
             <span class="streak-badge">🔥 <strong id="streakValue">0</strong></span>
           </div>
           <p class="quiz-kicker" id="quizKicker">Spójrz na pulsujący punkt</p>
@@ -155,10 +144,37 @@
           <div class="quiz-feedback" id="quizFeedback" hidden></div>
           <button class="primary-button" type="button" id="nextQuestion" hidden>Następne pytanie <span aria-hidden="true">→</span></button>
           <div class="quiz-stats">
-            <div><strong id="quizCorrect">0</strong><span>dobrze</span></div>
-            <div><strong id="quizAttempts">0</strong><span>odpowiedzi</span></div>
+            <div><strong id="quizCorrect">0</strong><span>opanowane</span></div>
+            <div><strong id="quizAttempts">0</strong><span>do poprawy</span></div>
             <div><strong id="quizAccuracy">0%</strong><span>skuteczność</span></div>
           </div>
+
+          <section class="corrections-panel" id="correctionsPanel" aria-labelledby="correctionsTitle">
+            <div class="corrections-panel__header">
+              <div>
+                <p class="eyebrow">POWTÓRZ POMYŁKI</p>
+                <h3 id="correctionsTitle">Popraw odpowiedzi</h3>
+              </div>
+              <span class="corrections-count" id="incorrectCount">0</span>
+            </div>
+            <p class="corrections-empty" id="correctionsEmpty">Nie masz odpowiedzi do poprawy.</p>
+            <div class="corrections-list" id="incorrectAnswers" hidden></div>
+            <button class="corrections-start" type="button" id="reviewIncorrect" hidden>Popraw wszystkie <span aria-hidden="true">→</span></button>
+          </section>
+
+          <section class="progress-card" aria-labelledby="progressTitle">
+            <div class="progress-card__top">
+              <div>
+                <p class="eyebrow">TWÓJ POSTĘP</p>
+                <h3 id="progressTitle"><span id="masteredCount">0</span> opanowanych</h3>
+              </div>
+              <strong id="progressPercent">0%</strong>
+            </div>
+            <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+              <span id="progressBar"></span>
+            </div>
+            <button class="text-button" type="button" id="resetProgress">Wyzeruj postęp</button>
+          </section>
         </section>
       </aside>
     </main>

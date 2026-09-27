@@ -134,34 +134,104 @@ input:focus-visible,
 }
 
 .mode-switch {
-  display: flex;
-  padding: 5px;
-  background: #070a16;
-  border: 1px solid #2f3449;
-  border-radius: 14px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(150px, 1fr));
+  gap: 7px;
+  padding: 7px;
+  background: #050711;
+  border: 2px solid #3c435d;
+  border-radius: 17px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.28), inset 0 0 0 1px rgba(255, 255, 255, 0.04);
 }
 
 .mode-button {
-  min-width: 118px;
-  padding: 10px 18px;
-  color: #858da7;
-  background: transparent;
-  border: 0;
-  border-radius: 9px;
-  font-size: 13px;
-  font-weight: 800;
+  min-width: 0;
+  min-height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 8px 16px;
+  color: #c0c6d8;
+  background: #151a2c;
+  border: 1px solid #343b53;
+  border-radius: 11px;
   cursor: pointer;
-  transition: 180ms ease;
+  transition: color 180ms ease, background 180ms ease, border-color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
+}
+
+.mode-button > span:last-child,
+.mode-button small,
+.mode-button strong {
+  display: block;
+}
+
+.mode-button > span:last-child {
+  text-align: left;
+}
+
+.mode-button small {
+  margin-bottom: 2px;
+  color: #7f879e;
+  font-size: 7px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+}
+
+.mode-button strong {
+  font-size: 13px;
+  line-height: 1;
+}
+
+.mode-button__icon {
+  width: 31px;
+  height: 31px;
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  background: #343b53;
+  border-radius: 9px;
+  font-size: 17px;
+  font-weight: 900;
 }
 
 .mode-button:hover {
   color: #fff;
+  border-color: #737c9b;
+  transform: translateY(-1px);
 }
 
 .mode-button.is-active {
   color: #fff;
   background: #5d4bdb;
-  box-shadow: 0 7px 18px rgba(93, 75, 219, 0.35);
+  border-color: #8d80ff;
+  box-shadow: 0 9px 23px rgba(93, 75, 219, 0.48);
+}
+
+.mode-button.is-active small {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.mode-button.is-active .mode-button__icon {
+  color: #5d4bdb;
+  background: #fff;
+}
+
+.mode-button[data-mode="quiz"].is-active {
+  color: #101426;
+  background: #ffbd2e;
+  border-color: #ffd86e;
+  box-shadow: 0 9px 23px rgba(255, 189, 46, 0.35);
+}
+
+.mode-button[data-mode="quiz"].is-active small {
+  color: #7d5600;
+}
+
+.mode-button[data-mode="quiz"].is-active .mode-button__icon {
+  color: #101426;
+  background: #fff;
 }
 
 .score-pill {
@@ -1018,17 +1088,36 @@ input:focus-visible,
 
 .source-link {
   display: inline-flex;
-  gap: 6px;
+  gap: 8px;
   align-items: center;
   margin-top: 22px;
-  color: var(--accent-dark);
-  font-size: 10px;
+  padding: 10px 13px;
+  color: #fff;
+  background: var(--accent);
+  border: 1px solid var(--accent-dark);
+  border-radius: 10px;
+  font-size: 11px;
   font-weight: 800;
   text-decoration: none;
+  box-shadow: 0 8px 18px rgba(93, 75, 219, 0.22);
+  transition: 160ms ease;
 }
 
 .source-link:hover {
-  text-decoration: underline;
+  background: var(--accent-dark);
+  transform: translateY(-1px);
+}
+
+.source-link__mark {
+  width: 22px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  color: var(--accent-dark);
+  background: #fff;
+  border-radius: 6px;
+  font-family: Georgia, serif;
+  font-size: 13px;
 }
 
 .place-navigation {
@@ -1230,6 +1319,135 @@ input:focus-visible,
   text-transform: uppercase;
 }
 
+.corrections-panel {
+  margin-top: 25px;
+  padding: 18px;
+  background: #fff8e7;
+  border: 1px solid #f2d98a;
+  border-radius: 14px;
+}
+
+.corrections-panel__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.corrections-panel__header .eyebrow {
+  color: #a87800;
+}
+
+.corrections-panel h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 17px;
+}
+
+.corrections-count {
+  min-width: 31px;
+  height: 31px;
+  display: grid;
+  place-items: center;
+  color: #101426;
+  background: #ffbd2e;
+  border-radius: 50%;
+  font-family: var(--font-display);
+  font-size: 13px;
+}
+
+.corrections-empty {
+  margin: 15px 0 0;
+  color: #77705f;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.corrections-list {
+  max-height: 270px;
+  display: grid;
+  gap: 8px;
+  margin-top: 15px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.correction-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  padding: 11px;
+  background: #fff;
+  border: 1px solid #ebdfbc;
+  border-radius: 10px;
+}
+
+.correction-item small,
+.correction-item strong,
+.correction-item span {
+  display: block;
+}
+
+.correction-item small {
+  overflow: hidden;
+  color: #a06f00;
+  font-size: 7px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.correction-item strong {
+  margin-top: 3px;
+  overflow: hidden;
+  font-size: 11px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.correction-item span {
+  margin-top: 3px;
+  overflow: hidden;
+  color: #8a8170;
+  font-size: 8px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.correction-item button,
+.corrections-start {
+  color: #101426;
+  background: #ffbd2e;
+  border: 0;
+  border-radius: 8px;
+  font-size: 9px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.correction-item button {
+  min-height: 34px;
+  padding: 7px 10px;
+}
+
+.correction-item button:hover,
+.corrections-start:hover {
+  background: #ffd15f;
+}
+
+.corrections-start {
+  width: 100%;
+  min-height: 40px;
+  margin-top: 12px;
+}
+
+.quiz-card .progress-card {
+  margin-top: 20px;
+}
+
 .toast {
   position: fixed;
   z-index: 100;
@@ -1363,14 +1581,27 @@ input:focus-visible,
   .mode-switch {
     position: fixed;
     z-index: 70;
+    left: 12px;
     right: 12px;
     bottom: 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 5px;
     box-shadow: 0 10px 30px rgba(16, 20, 38, 0.35);
   }
 
   .mode-button {
-    min-width: 88px;
-    padding: 9px 11px;
+    min-width: 0;
+    min-height: 48px;
+    padding: 7px 9px;
+  }
+
+  .mode-button__icon {
+    width: 28px;
+    height: 28px;
+    font-size: 15px;
+  }
+
+  .mode-button strong {
     font-size: 11px;
   }
 
@@ -1452,7 +1683,7 @@ input:focus-visible,
   .place-card,
   .quiz-card {
     min-height: 0;
-    padding-bottom: 85px;
+    padding-bottom: 105px;
   }
 
   .place-photo {
