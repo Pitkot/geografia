@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#101426">
+    <meta name="description" content="Interaktywna mapa świata do nauki obiektów geograficznych.">
+    <title>Mapa 101 — geografia bez nudy</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#map">Przejdź do mapy</a>
+
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Mapa 101 — strona główna">
+        <span class="brand-mark" aria-hidden="true">101</span>
+        <span><strong>MAPA</strong><small>geografia bez nudy</small></span>
+      </a>
+
+      <div class="mode-switch" role="group" aria-label="Tryb aplikacji">
+        <button class="mode-button is-active" type="button" data-mode="learn" aria-pressed="true">
+          <span aria-hidden="true">◉</span> Nauka
+        </button>
+        <button class="mode-button" type="button" data-mode="quiz" aria-pressed="false">
+          <span aria-hidden="true">⚡</span> Quiz
+        </button>
+      </div>
+
+      <div class="score-pill" aria-live="polite">
+        <span class="score-pill__icon" aria-hidden="true">★</span>
+        <span><strong id="headerScore">0</strong><small>punktów</small></span>
+      </div>
+    </header>
+
+    <main class="app-shell">
+      <aside class="sidebar" aria-label="Filtry mapy">
+        <section class="sidebar-section">
+          <div class="section-heading">
+            <p class="eyebrow">01 / OBSZAR</p>
+            <button class="icon-button mobile-close" type="button" id="closeFilters" aria-label="Zamknij filtry">×</button>
+          </div>
+          <h2>Dokąd lecimy?</h2>
+          <div class="region-list" id="regionList"></div>
+        </section>
+
+        <section class="sidebar-section">
+          <p class="eyebrow">02 / KATEGORIA</p>
+          <div class="category-list" id="categoryList"></div>
+        </section>
+
+        <section class="sidebar-section search-section">
+          <label class="search-label" for="searchInput">Znajdź miejsce</label>
+          <div class="search-box">
+            <span aria-hidden="true">⌕</span>
+            <input id="searchInput" type="search" autocomplete="off" placeholder="Np. Amazonka…">
+          </div>
+          <div class="search-results" id="searchResults" hidden></div>
+        </section>
+
+        <section class="progress-card" aria-labelledby="progressTitle">
+          <div class="progress-card__top">
+            <div>
+              <p class="eyebrow">TWÓJ POSTĘP</p>
+              <h3 id="progressTitle"><span id="masteredCount">0</span> opanowanych</h3>
+            </div>
+            <strong id="progressPercent">0%</strong>
+          </div>
+          <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+            <span id="progressBar"></span>
+          </div>
+          <button class="text-button" type="button" id="resetProgress">Wyzeruj postęp</button>
+        </section>
+      </aside>
+
+      <section class="map-column" aria-label="Interaktywna mapa">
+        <div class="map-toolbar">
+          <button class="filter-toggle" type="button" id="openFilters"><span aria-hidden="true">☷</span> Filtry</button>
+          <div class="map-context">
+            <span class="context-dot" id="contextDot"></span>
+            <div><small>AKTUALNY OBSZAR</small><strong id="currentRegionName">Cały świat</strong></div>
+          </div>
+          <span class="visible-counter"><strong id="visibleCount">0</strong> miejsc</span>
+        </div>
+
+        <div class="map-viewport" id="map" tabindex="0" aria-label="Mapa świata. Przeciągnij, aby przesunąć; użyj kółka, aby przybliżyć.">
+          <div class="map-world" id="mapWorld">
+            <img src="swiat.png" alt="Czarno-biała fizyczna mapa świata" draggable="false">
+            <div class="marker-layer" id="markerLayer"></div>
+          </div>
+          <div class="map-shade" aria-hidden="true"></div>
+
+          <div class="map-controls" aria-label="Sterowanie mapą">
+            <button type="button" id="zoomIn" aria-label="Przybliż mapę">+</button>
+            <button type="button" id="zoomOut" aria-label="Oddal mapę">−</button>
+            <button type="button" id="resetMap" aria-label="Pokaż cały świat">⌂</button>
+          </div>
+
+          <div class="map-hint" id="mapHint">
+            <span aria-hidden="true">↔</span> Przeciągnij mapę lub wybierz punkt
+          </div>
+
+          <div class="legend" id="legend"></div>
+        </div>
+      </section>
+
+      <aside class="info-panel" id="infoPanel" aria-live="polite">
+        <div class="welcome-card" id="welcomeCard">
+          <span class="welcome-orbit" aria-hidden="true">◎</span>
+          <p class="eyebrow">GOTOWY NA PODRÓŻ?</p>
+          <h1>Świat czeka<br>na odkrycie.</h1>
+          <p>Wybierz kolorowy punkt na mapie, aby poznać trzy krótkie ciekawostki.</p>
+          <div class="welcome-stats">
+            <div><strong id="totalLocations">197</strong><span>miejsc</span></div>
+            <div><strong>591</strong><span>ciekawostek</span></div>
+          </div>
+        </div>
+
+        <article class="place-card" id="placeCard" hidden>
+          <div class="place-photo">
+            <img id="placeImage" alt="" hidden>
+            <div class="photo-fallback" id="photoFallback">
+              <span id="fallbackIcon">●</span>
+              <strong id="fallbackText">Odkrywaj świat</strong>
+            </div>
+            <span class="place-number" id="placeNumber">001</span>
+          </div>
+          <div class="place-card__body">
+            <div class="place-meta"><span id="placeCategory"></span><span>•</span><span id="placeRegion"></span></div>
+            <h2 id="placeName"></h2>
+            <p class="coordinates" id="placeCoordinates"></p>
+
+            <div class="facts-block">
+              <p class="eyebrow">3 × CIEKAWOSTKA</p>
+              <ol class="facts-list" id="factsList"></ol>
+            </div>
+
+            <a class="source-link" id="sourceLink" target="_blank" rel="noopener noreferrer">Sprawdź źródło <span aria-hidden="true">↗</span></a>
+            <div class="place-navigation">
+              <button type="button" id="previousPlace" aria-label="Poprzednie miejsce">←</button>
+              <span><strong id="placePosition">1</strong> / <span id="placeTotal">197</span></span>
+              <button type="button" id="nextPlace" aria-label="Następne miejsce">→</button>
+            </div>
+          </div>
+        </article>
+
+        <section class="quiz-card" id="quizCard" hidden>
+          <div class="quiz-card__header">
+            <p class="eyebrow">SZYBKI QUIZ</p>
+            <span class="streak-badge">🔥 <strong id="streakValue">0</strong></span>
+          </div>
+          <p class="quiz-kicker" id="quizKicker">Spójrz na pulsujący punkt</p>
+          <h2>Jak nazywa się to miejsce?</h2>
+          <div class="quiz-options" id="quizOptions"></div>
+          <div class="quiz-feedback" id="quizFeedback" hidden></div>
+          <button class="primary-button" type="button" id="nextQuestion" hidden>Następne pytanie <span aria-hidden="true">→</span></button>
+          <div class="quiz-stats">
+            <div><strong id="quizCorrect">0</strong><span>dobrze</span></div>
+            <div><strong id="quizAttempts">0</strong><span>odpowiedzi</span></div>
+            <div><strong id="quizAccuracy">0%</strong><span>skuteczność</span></div>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script type="module" src="src/app.js"></script>
+  </body>
+</html>
