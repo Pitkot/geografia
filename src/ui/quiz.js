@@ -39,6 +39,12 @@ export function accuracy(progress) {
   return Math.round(masteredIds.size / answeredLocations * 100);
 }
 
+export function updateCorrectionQueue(queue, targetId, correct) {
+  const remaining = (queue || []).filter((id) => id !== targetId);
+  if (!correct) remaining.push(targetId);
+  return remaining;
+}
+
 export function recordAnswer(progress, targetId, selectedId) {
   const correct = targetId === selectedId;
   const mastered = new Set(progress.mastered || []);

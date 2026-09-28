@@ -161,25 +161,8 @@ input:focus-visible,
   transition: color 180ms ease, background 180ms ease, border-color 180ms ease, transform 180ms ease, box-shadow 180ms ease;
 }
 
-.mode-button > span:last-child,
-.mode-button small,
 .mode-button strong {
   display: block;
-}
-
-.mode-button > span:last-child {
-  text-align: left;
-}
-
-.mode-button small {
-  margin-bottom: 2px;
-  color: #7f879e;
-  font-size: 7px;
-  font-weight: 800;
-  letter-spacing: 0.18em;
-}
-
-.mode-button strong {
   font-size: 13px;
   line-height: 1;
 }
@@ -210,10 +193,6 @@ input:focus-visible,
   box-shadow: 0 9px 23px rgba(93, 75, 219, 0.48);
 }
 
-.mode-button.is-active small {
-  color: rgba(255, 255, 255, 0.7);
-}
-
 .mode-button.is-active .mode-button__icon {
   color: #5d4bdb;
   background: #fff;
@@ -224,10 +203,6 @@ input:focus-visible,
   background: #ffbd2e;
   border-color: #ffd86e;
   box-shadow: 0 9px 23px rgba(255, 189, 46, 0.35);
-}
-
-.mode-button[data-mode="quiz"].is-active small {
-  color: #7d5600;
 }
 
 .mode-button[data-mode="quiz"].is-active .mode-button__icon {
@@ -1704,7 +1679,6 @@ input:focus-visible,
 
   .brand > span:last-child,
   .score-pill small,
-  .mode-button small,
   .mode-button__icon {
     display: none;
   }
@@ -1718,10 +1692,6 @@ input:focus-visible,
   .mode-button {
     min-height: 40px;
     padding: 6px 5px;
-  }
-
-  .mode-button > span:last-child {
-    text-align: center;
   }
 
   .mode-button strong {

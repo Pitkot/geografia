@@ -1,6 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { accuracy, createQuestion, recordAnswer } from '../src/ui/quiz.js';
+import {
+  accuracy,
+  createQuestion,
+  recordAnswer,
+  updateCorrectionQueue
+} from '../src/ui/quiz.js';
 
 const pool = [
   { id: 'a', name: 'A', category: 'Rzeka', region: 'europe' },
@@ -105,5 +110,48 @@ test('poprawienie błędu usuwa go z kolejki i przywraca 100%', () => {
   assert.deepEqual(progress.incorrect, []);
   assert.equal(progress.correct, 3);
   assert.equal(progress.attempts, 4);
+  assert.equal(accuracy(progress), 100);
+});
+
+test('błędna poprawa wraca na koniec kolejki bez duplikatów', () => {
+  assert.deepEqual(updateCorrectionQueue(['a', 'b', 'a'], 'a', false), ['b', 'a']);
+});
+
+test('poprawna odpowiedź usuwa obiekt z kolejki poprawek', () => {
+  assert.deepEqual(updateCorrectionQueue(['a', 'b', 'a'], 'a', true), ['b']);
+});
+
+test('pełna seria poprawek kończy się pustą kolejką i skutecznością 100%', () => {
+  let progress = {
+    correct: 0,
+    attempts: 2,
+    streak: 0,
+    bestStreak: 0,
+    mastered: [],
+    incorrect: [
+      { targetId: 'a', selectedId: 'b' },
+      { targetId: 'c', selectedId: 'd' }
+    ]
+  };
+  let queue = ['a', 'c'];
+
+  progress = recordAnswer(progress, 'a', 'b');
+  queue = updateCorrectionQueue(queue, 'a', false);
+  assert.deepEqual(queue, ['c', 'a']);
+  assert.deepEqual(progress.incorrect, [
+    { targetId: 'c', selectedId: 'd' },
+    { targetId: 'a', selectedId: 'b' }
+  ]);
+
+  progress = recordAnswer(progress, 'c', 'c');
+  queue = updateCorrectionQueue(queue, 'c', true);
+  assert.deepEqual(queue, ['a']);
+  assert.deepEqual(progress.incorrect, [{ targetId: 'a', selectedId: 'b' }]);
+
+  progress = recordAnswer(progress, 'a', 'a');
+  queue = updateCorrectionQueue(queue, 'a', true);
+  assert.deepEqual(queue, []);
+  assert.deepEqual(new Set(progress.mastered), new Set(['a', 'c']));
+  assert.deepEqual(progress.incorrect, []);
   assert.equal(accuracy(progress), 100);
 });

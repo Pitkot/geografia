@@ -1,7 +1,7 @@
 import { formatCoordinates } from './data/projection.js';
 import { loadProgress, saveProgress, clearProgress } from './services/storage.js';
 import { createMapController } from './ui/map.js';
-import { accuracy, createQuestion, recordAnswer } from './ui/quiz.js';
+import { accuracy, createQuestion, recordAnswer, updateCorrectionQueue } from './ui/quiz.js';
 
 const REGION_VIEWS = {
   world: { id: 'world', name: 'Cały świat', color: '#5d4bdb', latitude: 8, longitude: 8, zoom: 1 },
@@ -393,8 +393,7 @@ function answerQuestion(selectedId) {
   progress = recordAnswer(progress, targetId, selectedId);
 
   if (state.reviewingIncorrect) {
-    state.reviewQueue = state.reviewQueue.filter((id) => id !== targetId);
-    if (!correct) state.reviewQueue.push(targetId);
+    state.reviewQueue = updateCorrectionQueue(state.reviewQueue, targetId, correct);
   }
   saveProgress(progress);
 
